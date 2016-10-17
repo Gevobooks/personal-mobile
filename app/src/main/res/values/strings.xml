@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">PersonalBooks</string>
+
+    <string name="entrar">Entrar</string>
+    <string name="personal_boooks">personal_boooks</string>
+    <string name="apelido_ou_e_mail">Apelido ou e-mail</string>
+    <string name="esqueceu_a_senha">Esqueceu a senha?</string>
+    <string name="senha">Senha</string>
+</resources>
