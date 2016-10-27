@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    tools:context="com.example.senaisp.personalbooks.view.RecoveryActivity"
+    android:id="@+id/detalhe_recovery">
+
+    <Button
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_marginStart="31dp"
+        android:id="@+id/btnVoltar"
+        style="@style/Widget.AppCompat.Button.Borderless"
+        android:onClick="btnVoltar"
+        android:background="@mipmap/ic_action_hardware_keyboard_arrow_left"
+        android:layout_alignBottom="@+id/btnEnviar"
+        android:layout_alignParentStart="true"
+        android:layout_alignTop="@+id/btnEnviar" />
+
+    <ImageView
+        app:srcCompat="@drawable/logo_p_books"
+        android:id="@+id/imageView"
+        tools:layout_editor_absoluteY="16dp"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        android:contentDescription="@string/personal_boooks"
+        tools:ignore="MissingConstraints"
+        android:layout_marginTop="17dp"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" />
+
+    <EditText
+        android:ems="10"
+        android:layout_marginTop="31dp"
+        android:id="@+id/edtRecovery"
+        tools:ignore="LabelFor"
+        android:layout_width="312dp"
+        android:inputType="textEmailAddress"
+        android:selectAllOnFocus="false"
+        android:text="@string/apelido_ou_e_mail"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:layout_below="@+id/imageView"
+        android:layout_centerHorizontal="true"
+        android:layout_height="50dp" />
+
+    <Button
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_marginTop="43dp"
+        android:id="@+id/btnEnviar"
+        style="@style/Widget.AppCompat.Button.Borderless"
+        android:onClick="btnRecovery"
+        android:background="@mipmap/ic_action_hardware_keyboard_arrow_right"
+        android:layout_below="@+id/edtRecovery"
+        android:layout_toEndOf="@+id/imageView"
+        android:elevation="0dp"
+        tools:ignore="UnusedAttribute" />
+
+</RelativeLayout>
