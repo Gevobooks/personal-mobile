@@ -13,4 +13,9 @@
     tools:context="com.example.senaisp.personalbooks.view.PerfilActivity"
     tools:showIn="@layout/app_bar_perfil">
 
+    <GridView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:numColumns="2"
+        android:id="@+id/gvDados" />
 </RelativeLayout>

@@ -13,18 +13,6 @@
     tools:context="com.example.senaisp.personalbooks.view.RecoveryActivity"
     android:id="@+id/detalhe_recovery">
 
-    <Button
-        android:layout_width="60dp"
-        android:layout_height="60dp"
-        android:layout_marginStart="31dp"
-        android:id="@+id/btnVoltar"
-        style="@style/Widget.AppCompat.Button.Borderless"
-        android:onClick="btnVoltar"
-        android:background="@mipmap/ic_action_hardware_keyboard_arrow_left"
-        android:layout_alignBottom="@+id/btnEnviar"
-        android:layout_alignParentStart="true"
-        android:layout_alignTop="@+id/btnEnviar" />
-
     <ImageView
         app:srcCompat="@drawable/logo_p_books"
         android:id="@+id/imageView"
@@ -33,37 +21,46 @@
         app:layout_constraintLeft_toLeftOf="parent"
         android:contentDescription="@string/personal_boooks"
         tools:ignore="MissingConstraints"
-        android:layout_marginTop="17dp"
-        android:layout_width="150dp"
+        android:layout_width="180dp"
         android:layout_height="150dp"
-        android:layout_alignParentTop="true"
-        android:layout_centerHorizontal="true" />
-
-    <EditText
-        android:ems="10"
-        android:layout_marginTop="31dp"
-        android:id="@+id/edtRecovery"
-        tools:ignore="LabelFor"
-        android:layout_width="312dp"
-        android:inputType="textEmailAddress"
-        android:selectAllOnFocus="false"
-        android:text="@string/apelido_ou_e_mail"
-        android:textAppearance="?android:attr/textAppearanceLarge"
-        android:layout_below="@+id/imageView"
+        android:layout_alignParentBottom="true"
         android:layout_centerHorizontal="true"
-        android:layout_height="50dp" />
+        android:layout_marginBottom="338dp" />
 
     <Button
         android:layout_width="60dp"
         android:layout_height="60dp"
-        android:layout_marginTop="43dp"
         android:id="@+id/btnEnviar"
         style="@style/Widget.AppCompat.Button.Borderless"
         android:onClick="btnRecovery"
-        android:background="@mipmap/ic_action_hardware_keyboard_arrow_right"
-        android:layout_below="@+id/edtRecovery"
-        android:layout_toEndOf="@+id/imageView"
+        android:background="@mipmap/ic_action_rightarrowblue"
         android:elevation="0dp"
-        tools:ignore="UnusedAttribute" />
+        tools:ignore="UnusedAttribute"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginBottom="130dp" />
+
+    <EditText
+        android:ems="10"
+        android:id="@+id/edtRecovery"
+        tools:ignore="LabelFor"
+        android:layout_width="match_parent"
+        android:inputType="textEmailAddress"
+        android:selectAllOnFocus="false"
+        android:text="@string/apelido_ou_e_mail"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_alignParentStart="true" />
+
+    <Button
+        android:text="Button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="50dp"
+        android:layout_marginBottom="41dp"
+        android:id="@+id/btnNadaVer" />
 
 </RelativeLayout>
