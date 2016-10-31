@@ -3,7 +3,22 @@
 
     <string name="entrar">Entrar</string>
     <string name="personal_boooks">personal_boooks</string>
-    <string name="apelido_ou_e_mail">Apelido ou e-mail</string>
+    <string name="apelido_ou_e_mail">Informe seu e-mail</string>
     <string name="esqueceu_a_senha">Esqueceu a senha?</string>
     <string name="senha">Senha</string>
+    <string name="voltar">Button</string>
+    <string name="enviar">Enviar</string>
+    <string name="esqueci_minha_senha">Esqueci minha senha.</string>
+    <string name="digite_sua_senha">Digite sua senha</string>
+    <string name="informe_seu_login">Informe seu login</string>
+    <string name="title_activity_perfil">PerfilActivity</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+    <string name="cadastro">Cadastro</string>
+    <string name="ok">OK</string>
+    <string name="e_mail">e-mail</string>
+    <string name="password">password</string>
 </resources>
