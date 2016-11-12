@@ -1,5 +1,8 @@
 package com.example.senaisp.personalbooks.view;
 
+
+import android.content.Context;
+import android.content.Intent;
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
 import android.view.View;
@@ -14,18 +17,26 @@ import com.example.senaisp.personalbooks.R;
 
 public class RecoveryActivity extends AppCompatActivity implements View.OnClickListener {
 
-    Button btnNadaAver;
+
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.detalhe_recovery);
-
         Button btnEnviar = (Button) findViewById(R.id.btnEnviar);
         btnEnviar.setOnClickListener (onClickSend());
+        Button btnNadaAver = (Button)findViewById(R.id.btnNadaVer);
+        btnNadaAver.setOnClickListener(onClickCadastro());
+    }
 
-        btnNadaAver = (Button)findViewById(R.id.btnNadaVer);
-        btnNadaAver.setOnClickListener(this);
+    public View.OnClickListener onClickCadastro(){
+        return new Button.OnClickListener(){
+            public void onClick (View v){
+                Intent StartRecovery = new Intent (getContext(), CadastroActivity.class );
+                startActivity(StartRecovery);
+                setContentView(R.layout.activity_cadastro);
+            }
+        };
     }
 
     public View.OnClickListener onClickSend(){
@@ -46,6 +57,10 @@ public class RecoveryActivity extends AppCompatActivity implements View.OnClickL
 
         };
 
+    }
+
+    private Context getContext(){
+        return this;
     }
 
     public void alerta (String s){

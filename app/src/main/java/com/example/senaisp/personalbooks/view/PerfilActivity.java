@@ -1,5 +1,6 @@
 package com.example.senaisp.personalbooks.view;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.support.design.widget.FloatingActionButton;
 import android.support.design.widget.NavigationView;
@@ -14,14 +15,25 @@ import android.view.MenuItem;
 import android.view.View;
 
 import com.example.senaisp.personalbooks.R;
+import com.example.senaisp.personalbooks.model.Usuario;
 
 public class PerfilActivity extends AppCompatActivity
         implements NavigationView.OnNavigationItemSelectedListener {
+
+    private PerfilHelper helper;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_perfil);
+
+        helper = new PerfilHelper(this);
+
+        Intent intent = getIntent();
+        Usuario usuario = (Usuario) intent.getSerializableExtra("user");
+
+
+
         Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
 
@@ -33,6 +45,9 @@ public class PerfilActivity extends AppCompatActivity
 
         NavigationView navigationView = (NavigationView) findViewById(R.id.nav_view);
         navigationView.setNavigationItemSelectedListener(this);
+
+      //  helper.preencheFormulario(usuario);
+
     }
 
     @Override

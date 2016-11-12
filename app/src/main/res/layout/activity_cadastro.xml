@@ -1,19 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout
+<RelativeLayout
     xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
     >
-
-    <TextView
-        android:text="@string/cadastro"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:textAppearance="?android:attr/textAppearanceLarge"
-        android:gravity="center"
-        android:id="@+id/txtCadastro" />
 
     <EditText
         android:layout_width="match_parent"
@@ -22,7 +15,22 @@
         android:text="@string/e_mail"
         android:ems="10"
         android:id="@+id/txtCadEmail"
-        tools:ignore="LabelFor" />
+        tools:ignore="LabelFor"
+        android:layout_above="@+id/txtCadSenha"
+        android:layout_alignParentStart="true" />
+
+    <Button
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:id="@+id/btnEnviar"
+        android:elevation="0dp"
+        tools:ignore="UnusedAttribute"
+        android:background="@mipmap/ic_action_loginblue"
+        android:minHeight="39dp"
+        android:minWidth="50dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="78dp" />
 
     <EditText
         android:layout_width="match_parent"
@@ -31,13 +39,41 @@
         android:text="@string/password"
         android:ems="10"
         android:id="@+id/txtCadSenha"
-        tools:ignore="LabelFor" />
+        tools:ignore="LabelFor"
+        android:layout_marginBottom="88dp"
+        android:layout_alignBottom="@+id/btnEnviar"
+        android:layout_alignParentStart="true" />
 
-    <Button
-        android:text="@string/ok"
+    <TextView
+        android:text="@string/cadastro2"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:id="@+id/btnEnviar"
-        android:elevation="0dp"
-        tools:ignore="UnusedAttribute" />
-</LinearLayout>
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:gravity="center"
+        android:id="@+id/txtCadastro2"
+        android:layout_above="@+id/txtCadEmail"
+        android:layout_alignParentStart="true"
+        android:layout_marginBottom="32dp" />
+
+    <TextView
+        android:text="@string/cadastro"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:gravity="center"
+        android:id="@+id/txtCadastro"
+        android:layout_above="@+id/txtCadastro2"
+        android:layout_alignParentStart="true"
+        android:layout_marginBottom="10dp" />
+
+    <ImageView
+
+        android:layout_width="180dp"
+        android:layout_height="160dp"
+        app:srcCompat="@drawable/logo_p_books"
+        android:id="@+id/imageView3"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="14dp"
+        android:contentDescription="" />
+</RelativeLayout>

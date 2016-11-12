@@ -3,192 +3,192 @@
 
     <item
         is-multidex="true"
-        jar="C:\Users\Kleber\Documents\GitHub\personal-mobile\app\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="24.0.3"
-        sha1="9ed75e5a8cf4e97d5c3fd02f7034d95d560fe1e4">
-        <dex dex="C:\Users\Kleber\Documents\GitHub\personal-mobile\app\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run_38266cb5ef2af170ea2f9798025b0ebcf422372b\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\Kleber\Documents\GitHub\personal-mobile\app\build\intermediates\exploded-aar\com.android.support.constraint\constraint-layout\1.0.0-beta1\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="24.0.3"
-        sha1="c4ad8321cff5fa475cb39daf387b3cb581aab17f">
-        <dex dex="C:\Users\Kleber\Documents\GitHub\personal-mobile\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support.constraint-constraint-layout-1.0.0-beta1_81882408023390ec57af10223071db5abd1ca0ed\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\Kleber\Documents\GitHub\personal-mobile\app\build\intermediates\exploded-aar\com.android.support\recyclerview-v7\24.2.1\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="24.0.3"
-        sha1="7521486d9bfd2cd9e756e0cf75ed7d97f2ce2d3b">
-        <dex dex="C:\Users\Kleber\Documents\GitHub\personal-mobile\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-recyclerview-v7-24.2.1_1c480b0affd62e011f9aeffd5fed793bc3e31659\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\Kleber\Documents\GitHub\personal-mobile\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\24.2.1\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="24.0.3"
-        sha1="43b2dba6b5a0b14527961b75329d0b90025f15ea">
-        <dex dex="C:\Users\Kleber\Documents\GitHub\personal-mobile\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-appcompat-v7-24.2.1_2d180f8658a4ff41c4099d47ab244f0170db8a8a\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\Kleber\Documents\GitHub\personal-mobile\app\build\intermediates\exploded-aar\com.android.support\support-core-utils\24.2.1\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="24.0.3"
-        sha1="9c4c3bc902450c39ed54de170db4fb12aea20a35">
-        <dex dex="C:\Users\Kleber\Documents\GitHub\personal-mobile\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-core-utils-24.2.1_3415dfc68564e2da0cb4d6d2ab61bd56bee56fba\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\Kleber\Documents\GitHub\personal-mobile\app\build\intermediates\exploded-aar\com.android.support\support-core-utils\24.2.1\jars\libs\internal_impl-24.2.1.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="24.0.3"
-        sha1="935a969265b2a166b2d20415423f5f6e90fe16e0">
-        <dex dex="C:\Users\Kleber\Documents\GitHub\personal-mobile\app\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-24.2.1_afbd0c8ce6eb804c2a5bf8ab635e2b1dd2dc3901\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\Kleber\Documents\GitHub\personal-mobile\app\build\intermediates\exploded-aar\com.android.support\support-v4\24.2.1\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="24.0.3"
-        sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
-        <dex dex="C:\Users\Kleber\Documents\GitHub\personal-mobile\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-v4-24.2.1_ecf7a7ae5c16a4426520294a2455ae0645767012\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\Kleber\Documents\GitHub\personal-mobile\app\build\intermediates\exploded-aar\com.android.support\support-fragment\24.2.1\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="24.0.3"
-        sha1="b9a1ac78ad7ef3abedc4a4b30cd92bcacb939d1f">
-        <dex dex="C:\Users\Kleber\Documents\GitHub\personal-mobile\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-fragment-24.2.1_743d7f9f55778bf23b424124748df08f6a94c04a\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\Kleber\Documents\GitHub\personal-mobile\app\build\intermediates\exploded-aar\com.android.support\support-media-compat\24.2.1\jars\libs\internal_impl-24.2.1.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="24.0.3"
-        sha1="fbf8da429efd5ad21e02e3e5ecaa1efc4167878d">
-        <dex dex="C:\Users\Kleber\Documents\GitHub\personal-mobile\app\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-24.2.1_02789d7ebf9744d1f27287689ed14b9e58473c93\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\Kleber\Documents\GitHub\personal-mobile\app\build\intermediates\exploded-aar\com.android.support\support-vector-drawable\24.2.1\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="24.0.3"
-        sha1="d5c731fc64c03dfe04d51134955b483551c35849">
-        <dex dex="C:\Users\Kleber\Documents\GitHub\personal-mobile\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-vector-drawable-24.2.1_57373e9de1bb49e0c527414ffa79d9d03914a525\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\Kleber\AppData\Local\Android\sdk1\extras\android\m2repository\com\android\support\support-annotations\24.2.1\support-annotations-24.2.1.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="24.0.3"
-        sha1="8de3aafecbdf98a61db6427f008f2d515bcd2544">
-        <dex dex="C:\Users\Kleber\Documents\GitHub\personal-mobile\app\build\intermediates\transforms\dex\debug\folders\1000\10\support-annotations-24.2.1_78d9d6f4e30969ad764250bb2e8a8c4c41b4c37d\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\Kleber\Documents\GitHub\personal-mobile\app\build\intermediates\exploded-aar\com.android.support\support-core-ui\24.2.1\jars\libs\internal_impl-24.2.1.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="24.0.3"
-        sha1="867dad63c33388ff8c7644b236579355036d075f">
-        <dex dex="C:\Users\Kleber\Documents\GitHub\personal-mobile\app\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-24.2.1_2e8b51ff9e056ae083679572a969342c10a591a9\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\Kleber\Documents\GitHub\personal-mobile\app\build\intermediates\exploded-aar\com.android.support\support-core-ui\24.2.1\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="24.0.3"
-        sha1="e7f3132168957eefc46229fc32c3bd464642b71e">
-        <dex dex="C:\Users\Kleber\Documents\GitHub\personal-mobile\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-core-ui-24.2.1_cbf8bdcf77f7130f4d718513c14d32851b8233ce\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\Kleber\Documents\GitHub\personal-mobile\app\build\intermediates\exploded-aar\com.android.support\animated-vector-drawable\24.2.1\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="24.0.3"
-        sha1="94bc1dfb84dcc8b6f6f8f7cc726d7b2dd39c1574">
-        <dex dex="C:\Users\Kleber\Documents\GitHub\personal-mobile\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-animated-vector-drawable-24.2.1_646ba173d5b6c6ab24e57318163c6bc66e028682\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\Kleber\Documents\GitHub\personal-mobile\app\build\intermediates\exploded-aar\com.android.support\support-compat\24.2.1\jars\libs\internal_impl-24.2.1.jar"
+        jar="C:\Users\SENAI SP\Documents\ProjetosAndroid\personal-mobile\app\build\intermediates\exploded-aar\com.android.support\support-compat\24.2.1\jars\libs\internal_impl-24.2.1.jar"
         jumboMode="true"
         optimize="true"
         revision="24.0.3"
         sha1="7e4389bd133359a2ff88623ff1e4ff93d6e6f780">
-        <dex dex="C:\Users\Kleber\Documents\GitHub\personal-mobile\app\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-24.2.1_a3b3fb6461d6a11d0ab1f64e05b9e0fe1a82da31\classes.dex" />
+        <dex dex="C:\Users\SENAI SP\Documents\ProjetosAndroid\personal-mobile\app\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-24.2.1_8246b147b028618a3b24f6ddbaeee16de6183916\classes.dex" />
     </item>
     <item
         is-multidex="true"
-        jar="C:\Users\Kleber\Documents\GitHub\personal-mobile\app\build\intermediates\exploded-aar\com.android.support\design\24.2.1\jars\classes.jar"
+        jar="C:\Users\SENAI SP\Documents\ProjetosAndroid\personal-mobile\app\build\intermediates\exploded-aar\com.android.support\support-vector-drawable\24.2.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.3"
+        sha1="d5c731fc64c03dfe04d51134955b483551c35849">
+        <dex dex="C:\Users\SENAI SP\Documents\ProjetosAndroid\personal-mobile\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-vector-drawable-24.2.1_04a65e0cd794f51ce4089c8b24af2fc01f452b7c\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\SENAI SP\Documents\ProjetosAndroid\personal-mobile\app\build\intermediates\exploded-aar\com.android.support\animated-vector-drawable\24.2.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.3"
+        sha1="94bc1dfb84dcc8b6f6f8f7cc726d7b2dd39c1574">
+        <dex dex="C:\Users\SENAI SP\Documents\ProjetosAndroid\personal-mobile\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-animated-vector-drawable-24.2.1_bc84fbe2a9a5acecbc646e25eb0d4ad251f3fda5\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\SENAI SP\Documents\ProjetosAndroid\personal-mobile\app\build\intermediates\exploded-aar\com.android.support\support-v4\24.2.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.3"
+        sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
+        <dex dex="C:\Users\SENAI SP\Documents\ProjetosAndroid\personal-mobile\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-v4-24.2.1_16b6a9f0dcf0a6b700a2c9aec53b476252616839\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\SENAI SP\Documents\ProjetosAndroid\personal-mobile\app\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.3"
+        sha1="5f53907e13050e318ad99f1c69391cdb4e2cb946">
+        <dex dex="C:\Users\SENAI SP\Documents\ProjetosAndroid\personal-mobile\app\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run-bootstrap_67eabb389cfeab2c9346cf41c78b188d34e4aa3d\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\SENAI SP\Documents\ProjetosAndroid\personal-mobile\app\build\intermediates\exploded-aar\com.android.support\support-core-utils\24.2.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.3"
+        sha1="9c4c3bc902450c39ed54de170db4fb12aea20a35">
+        <dex dex="C:\Users\SENAI SP\Documents\ProjetosAndroid\personal-mobile\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-core-utils-24.2.1_42a1fb90d5a55c2e25d7c0500f46dee872a6571e\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\SENAI SP\Documents\ProjetosAndroid\personal-mobile\app\build\intermediates\exploded-aar\com.android.support\support-core-utils\24.2.1\jars\libs\internal_impl-24.2.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.3"
+        sha1="935a969265b2a166b2d20415423f5f6e90fe16e0">
+        <dex dex="C:\Users\SENAI SP\Documents\ProjetosAndroid\personal-mobile\app\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-24.2.1_6af065cd34058ec29d01efbe3491e829f088440b\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\SENAI SP\Documents\ProjetosAndroid\personal-mobile\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\24.2.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.3"
+        sha1="43b2dba6b5a0b14527961b75329d0b90025f15ea">
+        <dex dex="C:\Users\SENAI SP\Documents\ProjetosAndroid\personal-mobile\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-appcompat-v7-24.2.1_6fab771ee0ce44b9acf36c2cc0b74353135dbf0b\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\SENAI SP\Documents\ProjetosAndroid\personal-mobile\app\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.3"
+        sha1="2538767294f03f4c5cd942b97c5a2b168546c0f5">
+        <dex dex="C:\Users\SENAI SP\Documents\ProjetosAndroid\personal-mobile\app\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run_eaba00df45e0c8adf833202a3ce910ab640f31eb\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\SENAI SP\Documents\ProjetosAndroid\personal-mobile\app\build\intermediates\exploded-aar\com.android.support\design\24.2.1\jars\classes.jar"
         jumboMode="true"
         optimize="true"
         revision="24.0.3"
         sha1="e03f47f3d1017a093bb3239d4ec47c3447f40744">
-        <dex dex="C:\Users\Kleber\Documents\GitHub\personal-mobile\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-design-24.2.1_7311d78f87ad27f367948f122f9464572a6664be\classes.dex" />
+        <dex dex="C:\Users\SENAI SP\Documents\ProjetosAndroid\personal-mobile\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-design-24.2.1_b97166c7be11325caaa812787afdb0503ffe7af6\classes.dex" />
     </item>
     <item
         is-multidex="true"
-        jar="C:\Users\Kleber\Documents\GitHub\personal-mobile\app\build\intermediates\exploded-aar\com.android.support\support-media-compat\24.2.1\jars\classes.jar"
+        jar="C:\Users\SENAI SP\Documents\ProjetosAndroid\personal-mobile\app\build\intermediates\exploded-aar\com.android.support\support-fragment\24.2.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.3"
+        sha1="b9a1ac78ad7ef3abedc4a4b30cd92bcacb939d1f">
+        <dex dex="C:\Users\SENAI SP\Documents\ProjetosAndroid\personal-mobile\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-fragment-24.2.1_3912889b692c50a6ec0c3146841983d4b7cd996e\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\SENAI SP\Documents\ProjetosAndroid\personal-mobile\app\build\intermediates\exploded-aar\com.android.support\support-media-compat\24.2.1\jars\classes.jar"
         jumboMode="true"
         optimize="true"
         revision="24.0.3"
         sha1="09b462bbcb77650284bd6614f1a32f360ef369f8">
-        <dex dex="C:\Users\Kleber\Documents\GitHub\personal-mobile\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-media-compat-24.2.1_239daa7cee5bb307446e339f160d814cd114f639\classes.dex" />
+        <dex dex="C:\Users\SENAI SP\Documents\ProjetosAndroid\personal-mobile\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-media-compat-24.2.1_d8265b3b6940e719662c19bd5fa93df3096fb2ca\classes.dex" />
     </item>
     <item
         is-multidex="true"
-        jar="C:\Users\Kleber\AppData\Local\Android\sdk1\extras\m2repository\com\android\support\constraint\constraint-layout-solver\1.0.0-beta1\constraint-layout-solver-1.0.0-beta1.jar"
+        jar="C:\Users\SENAI SP\Documents\ProjetosAndroid\personal-mobile\app\build\intermediates\exploded-aar\com.android.support.constraint\constraint-layout\1.0.0-beta1\jars\classes.jar"
         jumboMode="true"
         optimize="true"
         revision="24.0.3"
-        sha1="ac4965ed6786f8d63f1960a996a6be667064cd28">
-        <dex dex="C:\Users\Kleber\Documents\GitHub\personal-mobile\app\build\intermediates\transforms\dex\debug\folders\1000\10\constraint-layout-solver-1.0.0-beta1_1bee9175ea4bdd2e4ad3c6e357aeb2a2e319ae19\classes.dex" />
+        sha1="c4ad8321cff5fa475cb39daf387b3cb581aab17f">
+        <dex dex="C:\Users\SENAI SP\Documents\ProjetosAndroid\personal-mobile\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support.constraint-constraint-layout-1.0.0-beta1_09b482d8a3e98095b134881385bb011a81e39fe0\classes.dex" />
     </item>
     <item
         is-multidex="true"
-        jar="C:\Users\Kleber\Documents\GitHub\personal-mobile\app\build\intermediates\exploded-aar\com.android.support\support-compat\24.2.1\jars\classes.jar"
+        jar="C:\Users\SENAI SP\Documents\ProjetosAndroid\personal-mobile\app\build\intermediates\exploded-aar\com.android.support\support-compat\24.2.1\jars\classes.jar"
         jumboMode="true"
         optimize="true"
         revision="24.0.3"
         sha1="0ecb4b595fa0f0f8018a149ace3ea6525624f94e">
-        <dex dex="C:\Users\Kleber\Documents\GitHub\personal-mobile\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-compat-24.2.1_7696659c8bb83680140a0ae0d51f1c133b9c14be\classes.dex" />
+        <dex dex="C:\Users\SENAI SP\Documents\ProjetosAndroid\personal-mobile\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-compat-24.2.1_227c6240fbb51a6679d742c27f289dd300b1e7a5\classes.dex" />
     </item>
     <item
         is-multidex="true"
-        jar="C:\Users\Kleber\Documents\GitHub\personal-mobile\app\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="24.0.3"
-        sha1="9d41752cdbc5f3c6e0c982a9a9201b558fb76c92">
-        <dex dex="C:\Users\Kleber\Documents\GitHub\personal-mobile\app\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run-bootstrap_10d94f83d7ec06635737b2b0d32ae1d320bfee14\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\Kleber\Documents\GitHub\personal-mobile\app\build\intermediates\exploded-aar\com.android.support\support-fragment\24.2.1\jars\libs\internal_impl-24.2.1.jar"
+        jar="C:\Users\SENAI SP\Documents\ProjetosAndroid\personal-mobile\app\build\intermediates\exploded-aar\com.android.support\support-fragment\24.2.1\jars\libs\internal_impl-24.2.1.jar"
         jumboMode="true"
         optimize="true"
         revision="24.0.3"
         sha1="5f64d657e838e8375135c0f6057a7ff8fab6a50e">
-        <dex dex="C:\Users\Kleber\Documents\GitHub\personal-mobile\app\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-24.2.1_23ff0c56f95d10d867cd9e2ebca7a47dc880e192\classes.dex" />
+        <dex dex="C:\Users\SENAI SP\Documents\ProjetosAndroid\personal-mobile\app\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-24.2.1_ed74f99bf03b284d04cfe57964664b66b65e1a2f\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\SENAI SP\Documents\ProjetosAndroid\personal-mobile\app\build\intermediates\exploded-aar\com.android.support\support-core-ui\24.2.1\jars\libs\internal_impl-24.2.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.3"
+        sha1="867dad63c33388ff8c7644b236579355036d075f">
+        <dex dex="C:\Users\SENAI SP\Documents\ProjetosAndroid\personal-mobile\app\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-24.2.1_37b50167c766f7e1b9f81a3b833cc3813b6be81d\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\SENAI SP\AppData\Local\Android\Sdk\extras\android\m2repository\com\android\support\support-annotations\24.2.1\support-annotations-24.2.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.3"
+        sha1="8de3aafecbdf98a61db6427f008f2d515bcd2544">
+        <dex dex="C:\Users\SENAI SP\Documents\ProjetosAndroid\personal-mobile\app\build\intermediates\transforms\dex\debug\folders\1000\10\support-annotations-24.2.1_e797fe8c25a2e19b75cb8a3ee21d9eb874cc7553\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\SENAI SP\AppData\Local\Android\Sdk\extras\m2repository\com\android\support\constraint\constraint-layout-solver\1.0.0-beta1\constraint-layout-solver-1.0.0-beta1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.3"
+        sha1="ac4965ed6786f8d63f1960a996a6be667064cd28">
+        <dex dex="C:\Users\SENAI SP\Documents\ProjetosAndroid\personal-mobile\app\build\intermediates\transforms\dex\debug\folders\1000\10\constraint-layout-solver-1.0.0-beta1_bdd9d2fc51e16b28b18f909ad65cd3e365ce46ec\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\SENAI SP\Documents\ProjetosAndroid\personal-mobile\app\build\intermediates\exploded-aar\com.android.support\support-media-compat\24.2.1\jars\libs\internal_impl-24.2.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.3"
+        sha1="fbf8da429efd5ad21e02e3e5ecaa1efc4167878d">
+        <dex dex="C:\Users\SENAI SP\Documents\ProjetosAndroid\personal-mobile\app\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-24.2.1_2444419782dcd50f359c3e0e405b5b0c9bac0c21\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\SENAI SP\Documents\ProjetosAndroid\personal-mobile\app\build\intermediates\exploded-aar\com.android.support\support-core-ui\24.2.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.3"
+        sha1="e7f3132168957eefc46229fc32c3bd464642b71e">
+        <dex dex="C:\Users\SENAI SP\Documents\ProjetosAndroid\personal-mobile\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-core-ui-24.2.1_2154cfb77a84c5591c78719273fdce0e6dc5edf6\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\SENAI SP\Documents\ProjetosAndroid\personal-mobile\app\build\intermediates\exploded-aar\com.android.support\recyclerview-v7\24.2.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.3"
+        sha1="7521486d9bfd2cd9e756e0cf75ed7d97f2ce2d3b">
+        <dex dex="C:\Users\SENAI SP\Documents\ProjetosAndroid\personal-mobile\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-recyclerview-v7-24.2.1_bba87d9b73411e70a391c669962f1b29f111864e\classes.dex" />
     </item>
 
 </items>

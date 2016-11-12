@@ -1,6 +1,8 @@
 package com.example.senaisp.personalbooks.view;
 
 import android.widget.EditText;
+import android.widget.TextView;
+
 import com.example.senaisp.personalbooks.R;
 import com.example.senaisp.personalbooks.model.Usuario;
 
@@ -9,18 +11,19 @@ import com.example.senaisp.personalbooks.model.Usuario;
  */
 
 
-public class FormularioHelper {
+public class PerfilHelper {
 
-    private final EditText campoUsuario;
-    private final EditText campoSenha;
+    private final TextView campoUsuario;
+    private final TextView campoSenha;
+
 
     private Usuario usuario;
 
-    public FormularioHelper(CadastroActivity activity){
+    public PerfilHelper(PerfilActivity activity){
 
 
-        campoUsuario = (EditText) activity.findViewById(R.id.txtCadEmail);
-        campoSenha = (EditText) activity.findViewById(R.id.txtCadSenha);
+        campoUsuario = (TextView) activity.findViewById(R.id.textViewUsuariologado);
+        campoSenha = (TextView) activity.findViewById(R.id.textViewEmailLogado);
 
         usuario = new Usuario();
     }
