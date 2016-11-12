@@ -1,5 +1,6 @@
 package com.example.senaisp.personalbooks.view;
 
+import android.content.Context;
 import android.support.v7.app.AppCompatActivity;
 import android.content.Intent;
 import android.os.Bundle;
@@ -17,6 +18,9 @@ import com.example.senaisp.personalbooks.model.Usuario;
 public class CadastroActivity extends AppCompatActivity {
 
     private FormularioHelper helper;
+    UsuarioDao dao = new UsuarioDao(this);
+
+
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -25,11 +29,13 @@ public class CadastroActivity extends AppCompatActivity {
 
         helper = new FormularioHelper(this);
 
-        Intent intent = getIntent();
-        Usuario usuario = (Usuario) intent.getSerializableExtra("usuario");
-        if(usuario != null) {
-            helper.preencheFormulario(usuario);
-        }
+
+       // Intent intent = getIntent();
+      //  Usuario usuario = (Usuario) intent.getSerializableExtra("usuario");
+       // if(usuario != null) {
+       //     helper.preencheFormulario(usuario);
+       // }
+
 
 
 
@@ -42,13 +48,14 @@ public class CadastroActivity extends AppCompatActivity {
 
                 Usuario usuario = helper.pegaUsuario();
 
-               /* UsuarioDao dao = new UsuarioDao();
+
+                
                 if(usuario.getId() != null) {
                     dao.altera(usuario);
                 } else {
                     dao.insere(usuario);
                 }
-                dao.close();*/
+                dao.close();
 
 
 

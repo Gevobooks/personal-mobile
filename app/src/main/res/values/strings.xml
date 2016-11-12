@@ -21,4 +21,6 @@
     <string name="ok">OK</string>
     <string name="e_mail">e-mail</string>
     <string name="password">password</string>
+    <string name="button">Button</string>
+    <string name="cadastro2">cadastro2</string>
 </resources>

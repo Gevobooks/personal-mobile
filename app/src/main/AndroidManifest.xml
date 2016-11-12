@@ -22,6 +22,15 @@
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value=".view.RecoveryActivity" />
         </activity>
+
+        <activity
+            android:name=".view.CadastroActivity"
+            android:parentActivityName=".view.RecoveryActivity">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".view.CadastroActivity" />
+        </activity>
+
         <activity
             android:name=".view.PerfilActivity"
             android:label="@string/title_activity_perfil"

@@ -14,6 +14,8 @@ import com.example.senaisp.personalbooks.dao.UsuarioDao;
 import com.example.senaisp.personalbooks.model.Usuario;
 import java.util.List;
 
+import static android.widget.Toast.makeText;
+
 public class MainActivity extends AppCompatActivity{
 
     @Override
@@ -25,23 +27,51 @@ public class MainActivity extends AppCompatActivity{
         Button btnRecovery = (Button) findViewById(R.id.btnRecovery);
         btnRecovery.setOnClickListener(onClickRecovery());
 
+
+
     }
 
     public View.OnClickListener onClickLogin () {
         return new Button.OnClickListener() {
             public void onClick(View v) {
-                TextView edtLogin = (EditText) findViewById(R.id.edtLogin);
-                TextView edtSenha = (EditText) findViewById(R.id.edtSenha);
-                String login = edtLogin.getText().toString();
-                String senha = edtSenha.getText().toString();
-                if ("admin".equals(login) && "admin".equals(senha)){
-                    alerta("Bem-vindo, login realizado com sucesso.");
-                    Intent StartSession = new Intent (getContext(), PerfilActivity.class );
-                    startActivity(StartSession);
-                    setContentView(R.layout.activity_perfil);
-                } else {
-                    alerta("Usuário ou senha incorreto!");
+
+                try {
+                    Usuario userLogado = null;
+                    boolean logado = false;
+
+                    TextView edtLogin = (EditText) findViewById(R.id.edtLogin);
+                    TextView edtSenha = (EditText) findViewById(R.id.edtSenha);
+                    String login = edtLogin.getText().toString();
+                    String senha = edtSenha.getText().toString();
+
+
+                    List<Usuario> lUser = carregaLista();
+
+                    for(Usuario user : lUser){
+                        if(user.getEmail().equals(login) && user.getSenha().equals(senha)) {
+                            userLogado = user;
+                            logado = true;
+                        }
+                    }
+
+
+                    if(logado){
+                        alerta("Bem-vindo, login realizado com sucesso.");
+
+
+                        Intent StartSession = new Intent(getContext(), PerfilActivity.class);
+                        StartSession.putExtra("user",userLogado);
+                        startActivity(StartSession);
+                        setContentView(R.layout.activity_perfil);
+                    } else {
+                        alerta("Usuário ou senha incorreto!");
+                    }
+
+                }catch (Exception ex){
+                    Toast.makeText(MainActivity.this, ex.toString(), Toast.LENGTH_SHORT).show();
                 }
+
+
             }
 
         };
@@ -63,7 +93,7 @@ public class MainActivity extends AppCompatActivity{
 
     private void  alerta (String s){
 
-        Toast.makeText(this, s, Toast.LENGTH_LONG).show();
+        makeText(this, s, Toast.LENGTH_LONG).show();
     }
 
     @Override
@@ -73,10 +103,12 @@ public class MainActivity extends AppCompatActivity{
 
     }
 
-    private void carregaLista() {
+    private List<Usuario> carregaLista() {
 
         UsuarioDao dao = new UsuarioDao(this);
         List<Usuario> usuarios = dao.buscaUsuario();
         dao.close();
+
+        return usuarios;
     }
 }

@@ -39,7 +39,7 @@ public class UsuarioDao extends SQLiteOpenHelper {
 
         ContentValues dados = pegaDadosDoUsuario(usuario);
 
-        db.insert("Usuarios   ", null, dados);
+        db.insert("Usuarios", null, dados);
     }
 
     public void altera(Usuario usuario) {
@@ -52,7 +52,7 @@ public class UsuarioDao extends SQLiteOpenHelper {
     }
 
     public List<Usuario> buscaUsuario() {
-        String sql = "SELECT * FROM Usuario";
+        String sql = "SELECT * FROM Usuarios";
         SQLiteDatabase db = getReadableDatabase();
         Cursor c = db.rawQuery(sql, null);
 
