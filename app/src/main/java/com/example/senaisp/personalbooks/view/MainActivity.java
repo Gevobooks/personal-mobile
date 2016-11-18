@@ -42,7 +42,9 @@ public class MainActivity extends AppCompatActivity{
                     TextView edtLogin = (EditText) findViewById(R.id.edtLogin);
                     TextView edtSenha = (EditText) findViewById(R.id.edtSenha);
                     String login = edtLogin.getText().toString();
+                    edtSenha.setText("");
                     String senha = edtSenha.getText().toString();
+
 
 
                     List<Usuario> lUser = carregaLista();
@@ -70,12 +72,11 @@ public class MainActivity extends AppCompatActivity{
                 }catch (Exception ex){
                     Toast.makeText(MainActivity.this, ex.toString(), Toast.LENGTH_SHORT).show();
                 }
-
-
             }
 
         };
     }
+
 
     public View.OnClickListener onClickRecovery(){
         return new Button.OnClickListener(){
