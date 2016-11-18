@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="@dimen/nav_header_height"
     android:background="@drawable/side_nav_bar"
@@ -16,23 +17,25 @@
     <ImageView
         android:id="@+id/imageView"
         android:layout_width="65dp"
-        android:layout_height="wrap_content"
+        android:layout_height="84dp"
         android:paddingTop="@dimen/nav_header_vertical_spacing"
-        app:srcCompat="@android:drawable/sym_def_app_icon"
-        android:layout_weight="0.14" />
+        app:srcCompat="@drawable/avatar"
+        android:layout_weight="0.68"
+        android:contentDescription=""
+        tools:ignore="ContentDescription,InefficientWeight" />
 
     <TextView
         android:id="@+id/textViewUsuariologado"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:paddingTop="@dimen/nav_header_vertical_spacing"
-        android:text="Nome usuário"
+        android:text="@string/jo_o_da_silva"
         android:textAppearance="@style/TextAppearance.AppCompat.Body1" />
 
     <TextView
         android:id="@+id/textViewEmailLogado"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Professor de ciências" />
+        android:text="@string/professor" />
 
 </LinearLayout>

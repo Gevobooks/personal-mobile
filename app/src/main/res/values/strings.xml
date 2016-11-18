@@ -16,11 +16,16 @@
     <string name="navigation_drawer_open">Open navigation drawer</string>
     <string name="navigation_drawer_close">Close navigation drawer</string>
 
-    <string name="action_settings">Settings</string>
-    <string name="cadastro">Cadastro</string>
+    <string name="action_settings">Configurações</string>
+    <string name="cadastro">Digite seu e-mail e senha</string>
     <string name="ok">OK</string>
     <string name="e_mail">e-mail</string>
     <string name="password">password</string>
     <string name="button">Button</string>
-    <string name="cadastro2">cadastro2</string>
+    <string name="cadastro2">utilizado na plataforma Evolearn</string>
+    <string name="biblioteca_nativa">Biblioteca Nativa</string>
+    <string name="configura_es">Configurações</string>
+    <string name="minha_biblioteca">Minha biblioteca</string>
+    <string name="jo_o_da_silva">João da Silva</string>
+    <string name="professor">Professor</string>
 </resources>
