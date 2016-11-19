@@ -1,21 +1,44 @@
 <?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/content_perfil"
     android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    android:paddingBottom="@dimen/activity_vertical_margin"
-    android:paddingLeft="@dimen/activity_horizontal_margin"
-    android:paddingRight="@dimen/activity_horizontal_margin"
-    android:paddingTop="@dimen/activity_vertical_margin"
+    android:layout_height="wrap_content"
     app:layout_behavior="@string/appbar_scrolling_view_behavior"
     tools:context="com.example.senaisp.personalbooks.view.PerfilActivity"
-    tools:showIn="@layout/app_bar_perfil">
+    tools:showIn="@layout/app_bar_perfil"
+    android:orientation="horizontal">
 
-    <GridView
-        android:layout_width="match_parent"
+    <ImageView
+        android:layout_width="80dp"
         android:layout_height="match_parent"
-        android:numColumns="2"
-        android:id="@+id/gvDados" />
-</RelativeLayout>
+        app:srcCompat="@drawable/glasses"
+        />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="83dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:text="Nome"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:gravity="center"
+            android:layout_alignParentStart="true"
+            android:layout_marginBottom="10dp" />
+
+        <TextView
+            android:text="Profissão"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:gravity="center"
+            android:layout_alignParentStart="true"
+            android:layout_marginBottom="10dp" />
+
+
+    </LinearLayout>
+</LinearLayout>

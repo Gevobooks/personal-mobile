@@ -4,16 +4,16 @@
 
     <group android:checkableBehavior="single">
         <item
-            android:id="@+id/nav_camera"
-            android:icon="@drawable/ic_menu_camera"
+            android:id="@+id/minha_biblioteca"
+            android:icon="@mipmap/ic_note_black_24dp"
             android:title="@string/minha_biblioteca" />
         <item
-            android:id="@+id/nav_gallery"
-            android:icon="@drawable/ic_menu_gallery"
+            android:id="@+id/biblioteca_nativa"
+            android:icon="@mipmap/ic_present_to_all_black_24dp"
             android:title="@string/biblioteca_nativa" />
         <item
-            android:id="@+id/nav_slideshow"
-            android:icon="@drawable/ic_menu_slideshow"
+            android:id="@+id/config"
+            android:icon="@mipmap/ic_settings_black_24dp"
             android:title="@string/configura_es" />
     </group>
 
