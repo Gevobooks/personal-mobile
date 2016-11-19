@@ -90,12 +90,11 @@ public class PerfilActivity extends AppCompatActivity
         // Handle navigation view item clicks here.
         int id = item.getItemId();
 
-        if (id == R.id.nav_camera) {
+        if (id == R.id.minha_biblioteca) {
 
-            setContentView(R.layout.content_perfil);
-        } else if (id == R.id.nav_gallery) {
+        } else if (id == R.id.biblioteca_nativa) {
 
-        } else if (id == R.id.nav_slideshow) {
+        } else if (id == R.id.config) {
 
         }
 

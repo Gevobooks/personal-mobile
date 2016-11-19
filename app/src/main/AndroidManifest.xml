@@ -5,7 +5,7 @@
     <application
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
-        android:label="Personal Books"
+        android:label="EvoLearn"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
         <activity android:name=".view.MainActivity">
@@ -33,7 +33,6 @@
 
         <activity
             android:name=".view.PerfilActivity"
-            android:label="@string/title_activity_perfil"
             android:theme="@style/AppTheme.NoActionBar"></activity>
     </application>
 

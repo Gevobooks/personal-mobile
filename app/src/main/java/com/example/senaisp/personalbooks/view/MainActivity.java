@@ -42,7 +42,6 @@ public class MainActivity extends AppCompatActivity{
                     TextView edtLogin = (EditText) findViewById(R.id.edtLogin);
                     TextView edtSenha = (EditText) findViewById(R.id.edtSenha);
                     String login = edtLogin.getText().toString();
-                    edtSenha.setText("");
                     String senha = edtSenha.getText().toString();
 
 
@@ -86,6 +85,26 @@ public class MainActivity extends AppCompatActivity{
                 setContentView(R.layout.detalhe_recovery);
             }
         };
+    }
+
+    public View.OnFocusChangeListener apagaText(){
+        return new TextView.OnFocusChangeListener() {
+            @Override
+            public void onFocusChange(View v, boolean hasFocus) {
+
+                TextView edtSenha = (EditText) findViewById(R.id.edtSenha);
+
+                if (hasFocus==true)
+                {
+                    if (edtSenha.getText().toString().compareTo("Enter Text")==0)
+                    {
+                        edtSenha.setText("");
+                    }
+                }
+            }
+
+        };
+
     }
 
     private Context getContext(){

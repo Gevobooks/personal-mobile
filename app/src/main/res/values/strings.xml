@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">PersonalBooks</string>
+    <string name="app_name">EvoLearn</string>
 
     <string name="entrar">Entrar</string>
     <string name="personal_boooks">personal_boooks</string>
@@ -11,11 +11,8 @@
     <string name="esqueci_minha_senha">Esqueci minha senha.</string>
     <string name="digite_sua_senha">Digite sua senha</string>
     <string name="informe_seu_login">Informe seu login</string>
-    <string name="title_activity_perfil">PerfilActivity</string>
-
     <string name="navigation_drawer_open">Open navigation drawer</string>
     <string name="navigation_drawer_close">Close navigation drawer</string>
-
     <string name="action_settings">Configurações</string>
     <string name="cadastro">Digite seu e-mail e senha</string>
     <string name="ok">OK</string>
