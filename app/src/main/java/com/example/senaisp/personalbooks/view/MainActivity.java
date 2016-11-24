@@ -10,6 +10,7 @@ import android.widget.EditText;
 import android.widget.TextView;
 import android.widget.Toast;
 import com.example.senaisp.personalbooks.R;
+import com.example.senaisp.personalbooks.converter.UsuarioConverter;
 import com.example.senaisp.personalbooks.dao.UsuarioDao;
 import com.example.senaisp.personalbooks.model.Usuario;
 import java.util.List;
@@ -26,9 +27,6 @@ public class MainActivity extends AppCompatActivity{
         btnLogin.setOnClickListener (onClickLogin());
         Button btnRecovery = (Button) findViewById(R.id.btnRecovery);
         btnRecovery.setOnClickListener(onClickRecovery());
-
-
-
     }
 
     public View.OnClickListener onClickLogin () {
@@ -47,6 +45,9 @@ public class MainActivity extends AppCompatActivity{
 
 
                     List<Usuario> lUser = carregaLista();
+                    UsuarioConverter conversor = new UsuarioConverter();
+
+                    String json = conversor.converteParaJSON(usuarios);
 
                     for(Usuario user : lUser){
                         if(user.getEmail().equals(login) && user.getSenha().equals(senha)) {
