@@ -14,9 +14,11 @@ import java.net.URL;
 import java.util.Scanner;
 
 public class WebClient {
+
+    String urlPrefix = "evolearn.ddns.net:63000/Help/Api/POST-Account-";
     public String post(String json) {
         try {
-            URL url = new URL("http://polls.apiblueprint.org/questions");
+            URL url = new URL(urlPrefix + "Login") ;
             HttpURLConnection connection = (HttpURLConnection) url.openConnection();
             connection.setRequestProperty("Content-type", "application/json");
             connection.setRequestProperty("Accept", "application/json");

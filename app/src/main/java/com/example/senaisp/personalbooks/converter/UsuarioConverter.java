@@ -8,19 +8,18 @@ import java.util.List;
 
 public class UsuarioConverter {
 
-        public String converteParaJSON(List<Usuario> usuarios) {
+        public String converteParaJSON(String user, String password) {
             JSONStringer js = new JSONStringer();
 
             try {
-                js.object().key("list").array().object().key("usuario").array();
-                for (Usuario usuario : usuarios) {
-                    js.object();
-                    js.key("email").value(usuario.getEmail());
-                    js.key("senha").value(usuario.getSenha());
+                js.object();
+                    js.key("Username").value(user);
+                    js.key("Password").value(password);
                     js.endObject();
-                }
+
                 js.endArray().endObject().endArray().endObject();
-            } catch (JSONException e) {
+                }
+             catch (JSONException e) {
                 e.printStackTrace();
             }
             return js.toString();
