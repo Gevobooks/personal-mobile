@@ -11,4 +11,6 @@ public class Repository
     public static String BaseUrl = "http://evolearn.ddns.net:63000/";
 
     public static MediaType MediaType = okhttp3.MediaType.parse("application/json");
+
+
 }
