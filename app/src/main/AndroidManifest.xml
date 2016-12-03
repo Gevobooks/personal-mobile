@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.example.senaisp.personalbooks">
+    <uses-permission android:name="android.permission.INTERNET"/>
 
     <application
         android:allowBackup="true"
@@ -21,14 +22,6 @@
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value=".view.RecoveryActivity" />
-        </activity>
-
-        <activity
-            android:name=".view.CadastroActivity"
-            android:parentActivityName=".view.RecoveryActivity">
-            <meta-data
-                android:name="android.support.PARENT_ACTIVITY"
-                android:value=".view.CadastroActivity" />
         </activity>
 
         <activity

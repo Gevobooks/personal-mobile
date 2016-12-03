@@ -62,11 +62,11 @@ public class UserRepository
             {
                 OkHttpClient client = new OkHttpClient();
 
-
+                RequestBody body = RequestBody.create(Repository.MediaType, "");
 
                 Request request = new Request.Builder()
                         .url(Repository.BaseUrl + "Account/ForgetPassword?email=" + Email)
-                        .get()
+                        .post(body)
                         .build();
 
                 try {
@@ -78,9 +78,9 @@ public class UserRepository
 
                     if (code != 200)
                     {
-                        cb.Callback(null, new Exception( ));
+                        cb.Callback(null, new Exception());
                     }
-                    else cb.Callback(token, null);
+                    else cb.Callback(null, null);
                 } catch (IOException e) {
                     cb.Callback(null, e);
                 }

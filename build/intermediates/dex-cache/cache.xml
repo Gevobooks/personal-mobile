@@ -3,192 +3,219 @@
 
     <item
         is-multidex="true"
-        jar="C:\Users\Ramila\Documents\GitHub\ProjetosAndroid\personal-mobile\app\build\intermediates\exploded-aar\com.android.support\support-media-compat\24.2.1\jars\classes.jar"
+        jar="/Users/tancredofernando/.gradle/caches/modules-2/files-2.1/com.squareup.okio/okio/1.11.0/840897fcd7223a8143f1d9b6f69714e7be34fd50/okio-1.11.0.jar"
         jumboMode="true"
         optimize="true"
         revision="24.0.3"
-        sha1="09b462bbcb77650284bd6614f1a32f360ef369f8">
-        <dex dex="C:\Users\Ramila\Documents\GitHub\ProjetosAndroid\personal-mobile\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-media-compat-24.2.1_d6c205ae895934ed8b5d9345cf777b3ca8d0e8b6\classes.dex" />
+        sha1="840897fcd7223a8143f1d9b6f69714e7be34fd50">
+        <dex dex="/Users/tancredofernando/Desktop/AppAndroid/personal-mobile/app/build/intermediates/transforms/dex/debug/folders/1000/10/okio-1.11.0_a970777650d8ea482642c8012115c99a6573e2fd/classes.dex" />
     </item>
     <item
         is-multidex="true"
-        jar="C:\Users\Ramila\Documents\GitHub\ProjetosAndroid\personal-mobile\app\build\intermediates\exploded-aar\com.android.support\design\24.2.1\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="24.0.3"
-        sha1="e03f47f3d1017a093bb3239d4ec47c3447f40744">
-        <dex dex="C:\Users\Ramila\Documents\GitHub\ProjetosAndroid\personal-mobile\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-design-24.2.1_6e61143c32020ad09969d14c75ddd22d5730ecf5\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\Ramila\Documents\GitHub\ProjetosAndroid\personal-mobile\app\build\intermediates\exploded-aar\com.android.support\support-fragment\24.2.1\jars\libs\internal_impl-24.2.1.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="24.0.3"
-        sha1="5f64d657e838e8375135c0f6057a7ff8fab6a50e">
-        <dex dex="C:\Users\Ramila\Documents\GitHub\ProjetosAndroid\personal-mobile\app\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-24.2.1_4337cc0cd35dad1a816fb872acf3ed2ae1f87e9b\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\Ramila\Documents\GitHub\ProjetosAndroid\personal-mobile\app\build\intermediates\exploded-aar\com.android.support\support-media-compat\24.2.1\jars\libs\internal_impl-24.2.1.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="24.0.3"
-        sha1="fbf8da429efd5ad21e02e3e5ecaa1efc4167878d">
-        <dex dex="C:\Users\Ramila\Documents\GitHub\ProjetosAndroid\personal-mobile\app\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-24.2.1_d122b047588d29a0525c77110f8ae5aa64df4ff0\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\Ramila\Documents\GitHub\ProjetosAndroid\personal-mobile\app\build\intermediates\exploded-aar\com.android.support\support-v4\24.2.1\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="24.0.3"
-        sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
-        <dex dex="C:\Users\Ramila\Documents\GitHub\ProjetosAndroid\personal-mobile\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-v4-24.2.1_8dc7ee938f093fe291953d2a3e0a7f152bcc6c9e\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="D:\Android\SDK\extras\android\m2repository\com\android\support\support-annotations\24.2.1\support-annotations-24.2.1.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="24.0.3"
-        sha1="8de3aafecbdf98a61db6427f008f2d515bcd2544">
-        <dex dex="C:\Users\Ramila\Documents\GitHub\ProjetosAndroid\personal-mobile\app\build\intermediates\transforms\dex\debug\folders\1000\10\support-annotations-24.2.1_82406f0cc4f3674c39b53ef128ac0aed6ce51735\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\Ramila\Documents\GitHub\ProjetosAndroid\personal-mobile\app\build\intermediates\exploded-aar\com.android.support\support-vector-drawable\24.2.1\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="24.0.3"
-        sha1="d5c731fc64c03dfe04d51134955b483551c35849">
-        <dex dex="C:\Users\Ramila\Documents\GitHub\ProjetosAndroid\personal-mobile\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-vector-drawable-24.2.1_bbd81e07197480d97612e202d04ce6b06d884446\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\Ramila\Documents\GitHub\ProjetosAndroid\personal-mobile\app\build\intermediates\exploded-aar\com.android.support.constraint\constraint-layout\1.0.0-beta1\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="24.0.3"
-        sha1="c4ad8321cff5fa475cb39daf387b3cb581aab17f">
-        <dex dex="C:\Users\Ramila\Documents\GitHub\ProjetosAndroid\personal-mobile\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support.constraint-constraint-layout-1.0.0-beta1_d5738d3791272155eed872fbb033d497c18458fa\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\Ramila\Documents\GitHub\ProjetosAndroid\personal-mobile\app\build\intermediates\exploded-aar\com.android.support\support-compat\24.2.1\jars\libs\internal_impl-24.2.1.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="24.0.3"
-        sha1="7e4389bd133359a2ff88623ff1e4ff93d6e6f780">
-        <dex dex="C:\Users\Ramila\Documents\GitHub\ProjetosAndroid\personal-mobile\app\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-24.2.1_e6575597ff4c7205b2560b53e217d0ef9ba0b080\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\Ramila\Documents\GitHub\ProjetosAndroid\personal-mobile\app\build\intermediates\exploded-aar\com.android.support\support-fragment\24.2.1\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="24.0.3"
-        sha1="b9a1ac78ad7ef3abedc4a4b30cd92bcacb939d1f">
-        <dex dex="C:\Users\Ramila\Documents\GitHub\ProjetosAndroid\personal-mobile\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-fragment-24.2.1_8cc565d1449974b24c49224f6d58762adffd14b0\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\Ramila\Documents\GitHub\ProjetosAndroid\personal-mobile\app\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="24.0.3"
-        sha1="3459118a2e719c6b841627a80c0c903616b506e2">
-        <dex dex="C:\Users\Ramila\Documents\GitHub\ProjetosAndroid\personal-mobile\app\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run-bootstrap_17340d01742016455e5915e8c9796b32d3afd24c\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\Ramila\Documents\GitHub\ProjetosAndroid\personal-mobile\app\build\intermediates\exploded-aar\com.android.support\support-core-utils\24.2.1\jars\libs\internal_impl-24.2.1.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="24.0.3"
-        sha1="935a969265b2a166b2d20415423f5f6e90fe16e0">
-        <dex dex="C:\Users\Ramila\Documents\GitHub\ProjetosAndroid\personal-mobile\app\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-24.2.1_23fc8aaa95541a04da3e0acf6ad45793d4c48636\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\Ramila\Documents\GitHub\ProjetosAndroid\personal-mobile\app\build\intermediates\exploded-aar\com.android.support\support-core-ui\24.2.1\jars\libs\internal_impl-24.2.1.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="24.0.3"
-        sha1="867dad63c33388ff8c7644b236579355036d075f">
-        <dex dex="C:\Users\Ramila\Documents\GitHub\ProjetosAndroid\personal-mobile\app\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-24.2.1_2244474c71f352837e302584f59bc39fe8e04ac9\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\Ramila\Documents\GitHub\ProjetosAndroid\personal-mobile\app\build\intermediates\exploded-aar\com.android.support\support-core-ui\24.2.1\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="24.0.3"
-        sha1="e7f3132168957eefc46229fc32c3bd464642b71e">
-        <dex dex="C:\Users\Ramila\Documents\GitHub\ProjetosAndroid\personal-mobile\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-core-ui-24.2.1_97366b062381d5d1ea8c1bdd7b5316261d199d03\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\Ramila\Documents\GitHub\ProjetosAndroid\personal-mobile\app\build\intermediates\exploded-aar\com.android.support\support-compat\24.2.1\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="24.0.3"
-        sha1="0ecb4b595fa0f0f8018a149ace3ea6525624f94e">
-        <dex dex="C:\Users\Ramila\Documents\GitHub\ProjetosAndroid\personal-mobile\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-compat-24.2.1_32ffe386ef1384268cf46459ea003738393d477a\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\Ramila\Documents\GitHub\ProjetosAndroid\personal-mobile\app\build\intermediates\exploded-aar\com.android.support\recyclerview-v7\24.2.1\jars\classes.jar"
+        jar="/Users/tancredofernando/Desktop/AppAndroid/personal-mobile/app/build/intermediates/exploded-aar/com.android.support/recyclerview-v7/24.2.1/jars/classes.jar"
         jumboMode="true"
         optimize="true"
         revision="24.0.3"
         sha1="7521486d9bfd2cd9e756e0cf75ed7d97f2ce2d3b">
-        <dex dex="C:\Users\Ramila\Documents\GitHub\ProjetosAndroid\personal-mobile\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-recyclerview-v7-24.2.1_c5f324f275a32b81375de1c40e528a9bf4ebadc2\classes.dex" />
+        <dex dex="/Users/tancredofernando/Desktop/AppAndroid/personal-mobile/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-recyclerview-v7-24.2.1_134b5a406e5f702638edc64011b36a07916c4efd/classes.dex" />
     </item>
     <item
         is-multidex="true"
-        jar="C:\Users\Ramila\Documents\GitHub\ProjetosAndroid\personal-mobile\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\24.2.1\jars\classes.jar"
+        jar="/Users/tancredofernando/Desktop/AppAndroid/personal-mobile/app/build/intermediates/exploded-aar/com.android.support/support-compat/24.2.1/jars/classes.jar"
         jumboMode="true"
         optimize="true"
         revision="24.0.3"
-        sha1="43b2dba6b5a0b14527961b75329d0b90025f15ea">
-        <dex dex="C:\Users\Ramila\Documents\GitHub\ProjetosAndroid\personal-mobile\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-appcompat-v7-24.2.1_d88ac88010115fcd1c34bd8eaaa1d7d0073de9d5\classes.dex" />
+        sha1="0ecb4b595fa0f0f8018a149ace3ea6525624f94e">
+        <dex dex="/Users/tancredofernando/Desktop/AppAndroid/personal-mobile/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-compat-24.2.1_89c8376987d6cbfeb06237782d839896c1f50af6/classes.dex" />
     </item>
     <item
         is-multidex="true"
-        jar="C:\Users\Ramila\Documents\GitHub\ProjetosAndroid\personal-mobile\app\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
+        jar="/Users/tancredofernando/Desktop/AppAndroid/personal-mobile/app/build/intermediates/exploded-aar/com.android.support.constraint/constraint-layout/1.0.0-beta1/jars/classes.jar"
         jumboMode="true"
         optimize="true"
         revision="24.0.3"
-        sha1="8749c06fff10ad615cfffd886789ab5497f2f8a3">
-        <dex dex="C:\Users\Ramila\Documents\GitHub\ProjetosAndroid\personal-mobile\app\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run_5ed4a048fc1578a762f452bc8c60c363a1a0271c\classes.dex" />
+        sha1="c4ad8321cff5fa475cb39daf387b3cb581aab17f">
+        <dex dex="/Users/tancredofernando/Desktop/AppAndroid/personal-mobile/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support.constraint-constraint-layout-1.0.0-beta1_62e1495ca3f55a51efc4daeae44db09d3d622307/classes.dex" />
     </item>
     <item
         is-multidex="true"
-        jar="C:\Users\Ramila\Documents\GitHub\ProjetosAndroid\personal-mobile\app\build\intermediates\exploded-aar\com.android.support\support-core-utils\24.2.1\jars\classes.jar"
+        jar="/Users/tancredofernando/.gradle/caches/modules-2/files-2.1/com.google.code.gson/gson/2.8.0/c4ba5371a29ac9b2ad6129b1d39ea38750043eff/gson-2.8.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.3"
+        sha1="c4ba5371a29ac9b2ad6129b1d39ea38750043eff">
+        <dex dex="/Users/tancredofernando/Desktop/AppAndroid/personal-mobile/app/build/intermediates/transforms/dex/debug/folders/1000/10/gson-2.8.0_29b78c41b45848c3eb9a948b09b11ac2cd559d04/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/tancredofernando/Desktop/AppAndroid/personal-mobile/app/build/intermediates/exploded-aar/com.android.support/support-core-utils/24.2.1/jars/classes.jar"
         jumboMode="true"
         optimize="true"
         revision="24.0.3"
         sha1="9c4c3bc902450c39ed54de170db4fb12aea20a35">
-        <dex dex="C:\Users\Ramila\Documents\GitHub\ProjetosAndroid\personal-mobile\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-core-utils-24.2.1_77e2fb7628ecc47b4b0da0ca14067e3214ba73dd\classes.dex" />
+        <dex dex="/Users/tancredofernando/Desktop/AppAndroid/personal-mobile/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-core-utils-24.2.1_ca48c28a8f695727098dd9b2ea7fab4ee6fb61cd/classes.dex" />
     </item>
     <item
         is-multidex="true"
-        jar="C:\Users\Ramila\Documents\GitHub\ProjetosAndroid\personal-mobile\app\build\intermediates\exploded-aar\com.android.support\animated-vector-drawable\24.2.1\jars\classes.jar"
+        jar="/Users/tancredofernando/Desktop/AppAndroid/personal-mobile/app/build/intermediates/exploded-aar/com.android.support/support-core-utils/24.2.1/jars/libs/internal_impl-24.2.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.3"
+        sha1="935a969265b2a166b2d20415423f5f6e90fe16e0">
+        <dex dex="/Users/tancredofernando/Desktop/AppAndroid/personal-mobile/app/build/intermediates/transforms/dex/debug/folders/1000/10/internal_impl-24.2.1_01400d6fd8f3440a817755a8e82abb7a7cb3d851/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/tancredofernando/Desktop/AppAndroid/personal-mobile/app/build/intermediates/exploded-aar/com.android.support/design/24.2.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.3"
+        sha1="e03f47f3d1017a093bb3239d4ec47c3447f40744">
+        <dex dex="/Users/tancredofernando/Desktop/AppAndroid/personal-mobile/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-design-24.2.1_5fd11b037708abca69a80550b018fcf37c3548fe/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/tancredofernando/Desktop/AppAndroid/personal-mobile/app/build/intermediates/exploded-aar/com.android.support/support-compat/24.2.1/jars/libs/internal_impl-24.2.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.3"
+        sha1="7e4389bd133359a2ff88623ff1e4ff93d6e6f780">
+        <dex dex="/Users/tancredofernando/Desktop/AppAndroid/personal-mobile/app/build/intermediates/transforms/dex/debug/folders/1000/10/internal_impl-24.2.1_57949ed5462a8474ee58e16aa6280376f33dbe96/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/tancredofernando/Desktop/AppAndroid/personal-mobile/app/build/intermediates/exploded-aar/com.android.support/support-core-ui/24.2.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.3"
+        sha1="e7f3132168957eefc46229fc32c3bd464642b71e">
+        <dex dex="/Users/tancredofernando/Desktop/AppAndroid/personal-mobile/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-core-ui-24.2.1_3ad7ba7c08e66f7d84ee831af15699a904e69808/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/tancredofernando/Desktop/AppAndroid/personal-mobile/app/build/intermediates/exploded-aar/com.android.support/support-vector-drawable/24.2.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.3"
+        sha1="d5c731fc64c03dfe04d51134955b483551c35849">
+        <dex dex="/Users/tancredofernando/Desktop/AppAndroid/personal-mobile/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-vector-drawable-24.2.1_85f2cbbcfe44fd42804ed1f91362e10f6237a266/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/tancredofernando/Desktop/AppAndroid/personal-mobile/app/build/intermediates/exploded-aar/com.android.support/animated-vector-drawable/24.2.1/jars/classes.jar"
         jumboMode="true"
         optimize="true"
         revision="24.0.3"
         sha1="94bc1dfb84dcc8b6f6f8f7cc726d7b2dd39c1574">
-        <dex dex="C:\Users\Ramila\Documents\GitHub\ProjetosAndroid\personal-mobile\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-animated-vector-drawable-24.2.1_2f649d4b6dd13f4e1b4f79fbdffe8f5ceb2a941b\classes.dex" />
+        <dex dex="/Users/tancredofernando/Desktop/AppAndroid/personal-mobile/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-animated-vector-drawable-24.2.1_6b621bd94afa30b91c8746fae7a1166a2f80ed13/classes.dex" />
     </item>
     <item
         is-multidex="true"
-        jar="D:\Android\SDK\extras\m2repository\com\android\support\constraint\constraint-layout-solver\1.0.0-beta1\constraint-layout-solver-1.0.0-beta1.jar"
+        jar="/Users/tancredofernando/.gradle/caches/modules-2/files-2.1/com.squareup.okhttp3/okhttp/3.5.0/4b0bb6bfbecbdd42b97ff400af342bfe7f32bc83/okhttp-3.5.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.3"
+        sha1="4b0bb6bfbecbdd42b97ff400af342bfe7f32bc83">
+        <dex dex="/Users/tancredofernando/Desktop/AppAndroid/personal-mobile/app/build/intermediates/transforms/dex/debug/folders/1000/10/okhttp-3.5.0_218ed8be2c57a951d80f3f83a319c2e12a346246/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/tancredofernando/Desktop/AppAndroid/personal-mobile/app/build/intermediates/incremental-classes/debug/instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.3"
+        sha1="6f778e8674ca12528ce9b1a7da47794922caa532">
+        <dex dex="/Users/tancredofernando/Desktop/AppAndroid/personal-mobile/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run-bootstrap_6063926f313823f628fe27da9a53c872e43e60ee/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/tancredofernando/Desktop/AppAndroid/personal-mobile/app/build/intermediates/incremental-runtime-classes/debug/instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.3"
+        sha1="a32c599cdb30f24b62cb5a5b3436ac642687c28e">
+        <dex dex="/Users/tancredofernando/Desktop/AppAndroid/personal-mobile/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run_d710b0dee74f2d2dd1ee4326a03915c5fbcde3ef/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/tancredofernando/Desktop/AppAndroid/personal-mobile/app/build/intermediates/exploded-aar/com.android.support/support-fragment/24.2.1/jars/libs/internal_impl-24.2.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.3"
+        sha1="5f64d657e838e8375135c0f6057a7ff8fab6a50e">
+        <dex dex="/Users/tancredofernando/Desktop/AppAndroid/personal-mobile/app/build/intermediates/transforms/dex/debug/folders/1000/10/internal_impl-24.2.1_9a9ae5f135658be314fd119d51da74f572d009d0/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/tancredofernando/Desktop/AppAndroid/personal-mobile/app/build/intermediates/exploded-aar/com.android.support/support-fragment/24.2.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.3"
+        sha1="b9a1ac78ad7ef3abedc4a4b30cd92bcacb939d1f">
+        <dex dex="/Users/tancredofernando/Desktop/AppAndroid/personal-mobile/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-fragment-24.2.1_1ca0b903db9cdc42f556c8e5d618e51f903b2639/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/tancredofernando/Desktop/AppAndroid/personal-mobile/app/build/intermediates/exploded-aar/com.android.support/support-core-ui/24.2.1/jars/libs/internal_impl-24.2.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.3"
+        sha1="867dad63c33388ff8c7644b236579355036d075f">
+        <dex dex="/Users/tancredofernando/Desktop/AppAndroid/personal-mobile/app/build/intermediates/transforms/dex/debug/folders/1000/10/internal_impl-24.2.1_9bf4afdb7a124086281fa38992eb3c0e506ddfb1/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/tancredofernando/Desktop/AppAndroid/personal-mobile/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.2.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.3"
+        sha1="43b2dba6b5a0b14527961b75329d0b90025f15ea">
+        <dex dex="/Users/tancredofernando/Desktop/AppAndroid/personal-mobile/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-appcompat-v7-24.2.1_515d6ff9301869c619e6bd081647f9753f41df37/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/tancredofernando/Desktop/AppAndroid/personal-mobile/app/build/intermediates/exploded-aar/com.android.support/support-media-compat/24.2.1/jars/libs/internal_impl-24.2.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.3"
+        sha1="fbf8da429efd5ad21e02e3e5ecaa1efc4167878d">
+        <dex dex="/Users/tancredofernando/Desktop/AppAndroid/personal-mobile/app/build/intermediates/transforms/dex/debug/folders/1000/10/internal_impl-24.2.1_27d86d1d5f055975ed3e8126c1a0d57ed7e62916/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/tancredofernando/Desktop/AppAndroid/personal-mobile/app/build/intermediates/exploded-aar/com.android.support/support-media-compat/24.2.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.3"
+        sha1="09b462bbcb77650284bd6614f1a32f360ef369f8">
+        <dex dex="/Users/tancredofernando/Desktop/AppAndroid/personal-mobile/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-media-compat-24.2.1_ad100a95421e24f382c58fb7117e4b1e215151b6/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/tancredofernando/Library/Android/sdk/extras/m2repository/com/android/support/constraint/constraint-layout-solver/1.0.0-beta1/constraint-layout-solver-1.0.0-beta1.jar"
         jumboMode="true"
         optimize="true"
         revision="24.0.3"
         sha1="ac4965ed6786f8d63f1960a996a6be667064cd28">
-        <dex dex="C:\Users\Ramila\Documents\GitHub\ProjetosAndroid\personal-mobile\app\build\intermediates\transforms\dex\debug\folders\1000\10\constraint-layout-solver-1.0.0-beta1_7b3e742dafe589e7f15da7fcce4e85b206c6e6a1\classes.dex" />
+        <dex dex="/Users/tancredofernando/Desktop/AppAndroid/personal-mobile/app/build/intermediates/transforms/dex/debug/folders/1000/10/constraint-layout-solver-1.0.0-beta1_055b8365c1a241855ba06f8b991c99c0ff1dbc43/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/tancredofernando/Library/Android/sdk/extras/android/m2repository/com/android/support/support-annotations/24.2.1/support-annotations-24.2.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.3"
+        sha1="8de3aafecbdf98a61db6427f008f2d515bcd2544">
+        <dex dex="/Users/tancredofernando/Desktop/AppAndroid/personal-mobile/app/build/intermediates/transforms/dex/debug/folders/1000/10/support-annotations-24.2.1_f695e5810416ac09dfc098c629d0bfca9c3a3e2f/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/tancredofernando/Desktop/AppAndroid/personal-mobile/app/build/intermediates/exploded-aar/com.android.support/support-v4/24.2.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.3"
+        sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
+        <dex dex="/Users/tancredofernando/Desktop/AppAndroid/personal-mobile/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-v4-24.2.1_2fd3ba0bdb2970e75198f13c3e43498d82ea18ae/classes.dex" />
     </item>
 
 </items>

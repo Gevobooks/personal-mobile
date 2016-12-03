@@ -46,13 +46,15 @@ public class RecoveryActivity extends AppCompatActivity implements View.OnClickL
                                 if (error != null)
                                 {
                                     //tratar o erro
+                                    alerta("O campo e-mail não foi digitado corretamente!");
                                 }
                                 else
                                 {
+
                                     Intent StartSession = new Intent(getContext(), PerfilActivity.class);
-                                    StartSession.putExtra("user", back);
+                                    alerta("E-mail enviado com sucesso!, verifique seu e-mail");
                                     startActivity(StartSession);
-                                    setContentView(R.layout.activity_perfil);
+                                    setContentView(R.layout.activity_main);
                                 }
 
                             }
@@ -61,13 +63,7 @@ public class RecoveryActivity extends AppCompatActivity implements View.OnClickL
                 });
 
 
-                if ( texto == null || texto.equals("")) {
-                    alerta("O campo e-mail não foi digitado corretamente!");
 
-                }else{
-                    alerta("E-mail enviado com sucesso!, verifique seu e-mail");
-                    setContentView(R.layout.activity_main);
-                }
             }
 
         };
