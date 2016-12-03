@@ -7,37 +7,25 @@ import java.io.Serializable;
 
 public class Usuario implements Serializable {
 
-    private Long id;
-    private String email;
-    private String senha;
 
-    public Long getId() {
-        return id;
-    }
-
-    public void setId(Long id) {
-        this.id = id;
-    }
-
+    private String Username;
+    private String Password;
 
     public String getEmail() {
-        return email;
+        return Username;
     }
 
     public void setEmail(String email) {
-        this.email = email;
+        this.Username = email;
     }
 
     public String getSenha() {
-        return senha;
+        return Password;
     }
 
     public void setSenha(String senha) {
-        this.senha = senha;
+        this.Password = senha;
     }
 
-    @Override
-    public String toString() {
-        return getId() + " - " + getEmail();
-    }
+
 }

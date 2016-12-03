@@ -28,10 +28,10 @@ public class PerfilActivity extends AppCompatActivity
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_perfil);
 
-        helper = new PerfilHelper(this);
+       // helper = new PerfilHelper(this);
 
-        Intent intent = getIntent();
-        Usuario usuario = (Usuario) intent.getSerializableExtra("user");
+      //  Intent intent = getIntent();
+       // Usuario usuario = (Usuario) intent.getSerializableExtra("user");
 
 
 

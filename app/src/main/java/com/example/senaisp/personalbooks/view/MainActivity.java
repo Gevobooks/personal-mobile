@@ -9,20 +9,18 @@ import android.widget.Button;
 import android.widget.EditText;
 import android.widget.TextView;
 import android.widget.Toast;
-
-import com.example.senaisp.personalbooks.EnviarUsuarioTask;
 import com.example.senaisp.personalbooks.R;
-import com.example.senaisp.personalbooks.WebClient;
-import com.example.senaisp.personalbooks.converter.UsuarioConverter;
-import com.example.senaisp.personalbooks.dao.UsuarioDao;
 import com.example.senaisp.personalbooks.model.Usuario;
-
-import java.util.List;
+import com.example.senaisp.personalbooks.model.viewModel.Token;
+import com.example.senaisp.personalbooks.repository.ICallback;
+import com.example.senaisp.personalbooks.repository.UserRepository;
+import com.google.gson.Gson;
 
 import static android.widget.Toast.makeText;
 
-public class MainActivity extends AppCompatActivity{
-
+public class MainActivity extends AppCompatActivity
+{
+    Gson gson = new Gson();
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -39,46 +37,39 @@ public class MainActivity extends AppCompatActivity{
 
                 try {
 
-                    TextView edtLogin = (EditText) findViewById(R.id.edtLogin);
-                    TextView edtSenha = (EditText) findViewById(R.id.edtSenha);
-                    String login = edtLogin.getText().toString();
-                    String senha = edtSenha.getText().toString();
+                    String login = ((EditText) findViewById(R.id.edtLogin)).getText().toString();
+                    String senha = ((EditText) findViewById(R.id.edtSenha)).getText().toString();
 
-                    UsuarioConverter uc = new UsuarioConverter();
-                    String json = uc.converteParaJSON(login,senha);
+                    Usuario user = new Usuario();
+                    user.setEmail(login);
+                    user.setSenha(senha);
 
-                    WebClient client = new WebClient();
-                    String resposta = client.post(json);
+                    String json = gson.toJson(user);
 
-                    Toast.makeText(MainActivity.this, resposta, Toast.LENGTH_SHORT).show();
-                    new EnviarUsuarioTask(MainActivity.this).execute();
+                    UserRepository.EnviarUsuario(json, new ICallback<Token>() {
+                        @Override
+                        public void Callback(final Token back, final Exception error)
+                        {
+                            runOnUiThread(new Runnable() {
+                                @Override
+                                public void run() {
+                                    if (error != null)
+                                    {
+                                        //tratar o erro
+                                    }
+                                    else
+                                    {
+                                        Intent StartSession = new Intent(getContext(), PerfilActivity.class);
+                                        StartSession.putExtra("user", back);
+                                        startActivity(StartSession);
+                                        setContentView(R.layout.activity_perfil);
+                                    }
 
-//                    alerta("Bem-vindo, login realizado com sucesso.");
-//
+                                }
+                            });
+                        }
+                    });
 
-
-//
-//
-//
-//                    for(Usuario user : lUser){
-//                        if(user.getEmail().equals(login) && user.getSenha().equals(senha)) {
-//                            userLogado = user;
-//                            logado = true;
-//                        }
-//                    }
-//
-//
-//                    if(logado){
-//                        alerta("Bem-vindo, login realizado com sucesso.");
-//
-//
-//                        Intent StartSession = new Intent(getContext(), PerfilActivity.class);
-//                        StartSession.putExtra("user",userLogado);
-//                        startActivity(StartSession);
-//                        setContentView(R.layout.activity_perfil);
-//                    } else {
-//                        alerta("Usuário ou senha incorreto!");
-//                    }
 
                 }catch (Exception ex){
                     Toast.makeText(MainActivity.this, ex.toString(), Toast.LENGTH_SHORT).show();
@@ -112,16 +103,8 @@ public class MainActivity extends AppCompatActivity{
 //    @Override
 //    protected void onResume() {
 //        super.onResume();
-////        carregaLista();
-//
-//    }
 
-//    private List<Usuario> carregaLista() {
-//
-//        UsuarioDao dao = new UsuarioDao(this);
-//        List<Usuario> usuarios = dao.buscaUsuario();
-//        dao.close();
-//
-//        return usuarios;
-//    }
 }
+
+
+

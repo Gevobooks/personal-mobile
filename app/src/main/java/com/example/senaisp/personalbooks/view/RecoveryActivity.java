@@ -10,10 +10,10 @@ import android.widget.Button;
 import android.widget.EditText;
 import android.widget.Toast;
 import com.example.senaisp.personalbooks.R;
+import com.example.senaisp.personalbooks.model.viewModel.Token;
+import com.example.senaisp.personalbooks.repository.ICallback;
+import com.example.senaisp.personalbooks.repository.UserRepository;
 
-/**
- * Created by Kleber on 24/10/2016.
-*/
 
 public class RecoveryActivity extends AppCompatActivity implements View.OnClickListener {
 
@@ -25,26 +25,41 @@ public class RecoveryActivity extends AppCompatActivity implements View.OnClickL
         setContentView(R.layout.detalhe_recovery);
         Button btnEnviar = (Button) findViewById(R.id.btnEnviar);
         btnEnviar.setOnClickListener (onClickSend());
-        Button btnNadaAver = (Button)findViewById(R.id.btnNadaVer);
-        btnNadaAver.setOnClickListener(onClickCadastro());
+
     }
 
-    public View.OnClickListener onClickCadastro(){
-        return new Button.OnClickListener(){
-            public void onClick (View v){
-                Intent StartRecovery = new Intent (getContext(), CadastroActivity.class );
-                startActivity(StartRecovery);
-                setContentView(R.layout.activity_cadastro);
-            }
-        };
-    }
+
 
     public View.OnClickListener onClickSend(){
         return new Button.OnClickListener(){
             public void onClick (View v){
 
-                EditText recoveryMail = (EditText) findViewById(R.id.edtRecovery);
-                String texto = recoveryMail.getText().toString();
+                String Email = ((EditText) findViewById(R.id.edtRecovery)).getText().toString();
+
+                UserRepository.getForgetPassword(Email, new ICallback<Token>() {
+                    @Override
+                    public void Callback(final Token back, final Exception error)
+                    {
+                        runOnUiThread(new Runnable() {
+                            @Override
+                            public void run() {
+                                if (error != null)
+                                {
+                                    //tratar o erro
+                                }
+                                else
+                                {
+                                    Intent StartSession = new Intent(getContext(), PerfilActivity.class);
+                                    StartSession.putExtra("user", back);
+                                    startActivity(StartSession);
+                                    setContentView(R.layout.activity_perfil);
+                                }
+
+                            }
+                        });
+                    }
+                });
+
 
                 if ( texto == null || texto.equals("")) {
                     alerta("O campo e-mail não foi digitado corretamente!");
