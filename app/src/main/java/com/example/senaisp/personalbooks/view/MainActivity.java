@@ -9,9 +9,14 @@ import android.widget.Button;
 import android.widget.EditText;
 import android.widget.TextView;
 import android.widget.Toast;
+
+import com.example.senaisp.personalbooks.EnviarUsuarioTask;
 import com.example.senaisp.personalbooks.R;
+import com.example.senaisp.personalbooks.WebClient;
+import com.example.senaisp.personalbooks.converter.UsuarioConverter;
 import com.example.senaisp.personalbooks.dao.UsuarioDao;
 import com.example.senaisp.personalbooks.model.Usuario;
+
 import java.util.List;
 
 import static android.widget.Toast.makeText;
@@ -26,47 +31,54 @@ public class MainActivity extends AppCompatActivity{
         btnLogin.setOnClickListener (onClickLogin());
         Button btnRecovery = (Button) findViewById(R.id.btnRecovery);
         btnRecovery.setOnClickListener(onClickRecovery());
-
-
-
-    }
+}
 
     public View.OnClickListener onClickLogin () {
         return new Button.OnClickListener() {
             public void onClick(View v) {
 
                 try {
-                    Usuario userLogado = null;
-                    boolean logado = false;
 
                     TextView edtLogin = (EditText) findViewById(R.id.edtLogin);
                     TextView edtSenha = (EditText) findViewById(R.id.edtSenha);
                     String login = edtLogin.getText().toString();
                     String senha = edtSenha.getText().toString();
 
+                    UsuarioConverter uc = new UsuarioConverter();
+                    String json = uc.converteParaJSON(login,senha);
+
+                    WebClient client = new WebClient();
+                    String resposta = client.post(json);
+
+                    Toast.makeText(MainActivity.this, resposta, Toast.LENGTH_SHORT).show();
+                    new EnviarUsuarioTask(MainActivity.this).execute();
+
+//                    alerta("Bem-vindo, login realizado com sucesso.");
+//
 
 
-                    List<Usuario> lUser = carregaLista();
-
-                    for(Usuario user : lUser){
-                        if(user.getEmail().equals(login) && user.getSenha().equals(senha)) {
-                            userLogado = user;
-                            logado = true;
-                        }
-                    }
-
-
-                    if(logado){
-                        alerta("Bem-vindo, login realizado com sucesso.");
-
-
-                        Intent StartSession = new Intent(getContext(), PerfilActivity.class);
-                        StartSession.putExtra("user",userLogado);
-                        startActivity(StartSession);
-                        setContentView(R.layout.activity_perfil);
-                    } else {
-                        alerta("Usuário ou senha incorreto!");
-                    }
+//
+//
+//
+//                    for(Usuario user : lUser){
+//                        if(user.getEmail().equals(login) && user.getSenha().equals(senha)) {
+//                            userLogado = user;
+//                            logado = true;
+//                        }
+//                    }
+//
+//
+//                    if(logado){
+//                        alerta("Bem-vindo, login realizado com sucesso.");
+//
+//
+//                        Intent StartSession = new Intent(getContext(), PerfilActivity.class);
+//                        StartSession.putExtra("user",userLogado);
+//                        startActivity(StartSession);
+//                        setContentView(R.layout.activity_perfil);
+//                    } else {
+//                        alerta("Usuário ou senha incorreto!");
+//                    }
 
                 }catch (Exception ex){
                     Toast.makeText(MainActivity.this, ex.toString(), Toast.LENGTH_SHORT).show();
@@ -87,25 +99,6 @@ public class MainActivity extends AppCompatActivity{
         };
     }
 
-    public View.OnFocusChangeListener apagaText(){
-        return new TextView.OnFocusChangeListener() {
-            @Override
-            public void onFocusChange(View v, boolean hasFocus) {
-
-                TextView edtSenha = (EditText) findViewById(R.id.edtSenha);
-
-                if (hasFocus==true)
-                {
-                    if (edtSenha.getText().toString().compareTo("Enter Text")==0)
-                    {
-                        edtSenha.setText("");
-                    }
-                }
-            }
-
-        };
-
-    }
 
     private Context getContext(){
         return this;
@@ -116,19 +109,19 @@ public class MainActivity extends AppCompatActivity{
         makeText(this, s, Toast.LENGTH_LONG).show();
     }
 
-    @Override
-    protected void onResume() {
-        super.onResume();
-        carregaLista();
+//    @Override
+//    protected void onResume() {
+//        super.onResume();
+////        carregaLista();
+//
+//    }
 
-    }
-
-    private List<Usuario> carregaLista() {
-
-        UsuarioDao dao = new UsuarioDao(this);
-        List<Usuario> usuarios = dao.buscaUsuario();
-        dao.close();
-
-        return usuarios;
-    }
+//    private List<Usuario> carregaLista() {
+//
+//        UsuarioDao dao = new UsuarioDao(this);
+//        List<Usuario> usuarios = dao.buscaUsuario();
+//        dao.close();
+//
+//        return usuarios;
+//    }
 }
