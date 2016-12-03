@@ -94,12 +94,16 @@ public class PerfilActivity extends AppCompatActivity
 
         } else if (id == R.id.biblioteca_nativa) {
 
-        } else if (id == R.id.config) {
-
+        } else if (id == R.id.sair) {
+            Intent StartSession = new Intent(getContext(), MainActivity.class);
+            startActivity(StartSession);
+            setContentView(R.layout.activity_main);
+            finish();
         }
 
         DrawerLayout drawer = (DrawerLayout) findViewById(R.id.drawer_layout);
-        drawer.closeDrawer(GravityCompat.START);
+        if(drawer != null)
+            drawer.closeDrawer(GravityCompat.START);
         return true;
     }
 

@@ -29,7 +29,8 @@ public class MainActivity extends AppCompatActivity
         btnLogin.setOnClickListener (onClickLogin());
         Button btnRecovery = (Button) findViewById(R.id.btnRecovery);
         btnRecovery.setOnClickListener(onClickRecovery());
-}
+
+     }
 
     public View.OnClickListener onClickLogin () {
         return new Button.OnClickListener() {
@@ -53,9 +54,9 @@ public class MainActivity extends AppCompatActivity
                             runOnUiThread(new Runnable() {
                                 @Override
                                 public void run() {
-                                    if (error != null)
-                                    {
-                                        //tratar o erro
+                                    if (error != null) {
+
+                                        alerta("Usuário ou senha incorretos!");
                                     }
                                     else
                                     {
@@ -99,6 +100,7 @@ public class MainActivity extends AppCompatActivity
 
         makeText(this, s, Toast.LENGTH_LONG).show();
     }
+
 
 //    @Override
 //    protected void onResume() {
