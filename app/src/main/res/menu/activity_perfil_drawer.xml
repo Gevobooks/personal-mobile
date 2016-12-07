@@ -12,9 +12,8 @@
             android:icon="@mipmap/ic_present_to_all_black_24dp"
             android:title="@string/biblioteca_nativa" />
         <item
-            android:id="@+id/config"
+            android:id="@+id/sair"
             android:icon="@mipmap/ic_settings_black_24dp"
-            android:title="@string/configura_es" />
+            android:title="@string/sair" />
     </group>
-
 </menu>

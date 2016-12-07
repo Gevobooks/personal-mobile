@@ -1,9 +1,7 @@
 <resources>
     <string name="app_name">EvoLearn</string>
-
     <string name="entrar">Entrar</string>
     <string name="personal_boooks">personal_boooks</string>
-    <string name="apelido_ou_e_mail">Informe seu e-mail</string>
     <string name="esqueceu_a_senha">Esqueceu a senha?</string>
     <string name="senha">Senha</string>
     <string name="voltar">Button</string>
@@ -21,7 +19,7 @@
     <string name="button">Button</string>
     <string name="cadastro2">utilizado na plataforma Evolearn</string>
     <string name="biblioteca_nativa">Biblioteca Nativa</string>
-    <string name="configura_es">Configurações</string>
+    <string name="sair">Sair</string>
     <string name="minha_biblioteca">Minha biblioteca</string>
     <string name="jo_o_da_silva">João da Silva</string>
     <string name="professor">Professor</string>

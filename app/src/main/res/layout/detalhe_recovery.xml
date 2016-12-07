@@ -32,13 +32,12 @@
         android:id="@+id/edtRecovery"
         tools:ignore="LabelFor"
         android:layout_width="match_parent"
-        android:inputType="textEmailAddress"
         android:selectAllOnFocus="false"
-        android:text="@string/apelido_ou_e_mail"
         android:textAppearance="?android:attr/textAppearanceLarge"
         android:layout_height="wrap_content"
         android:layout_centerVertical="true"
-        android:layout_alignParentStart="true" />
+        android:layout_alignParentStart="true"
+        android:inputType="textEmailAddress" />
 
     <Button
         android:layout_width="60dp"
@@ -52,5 +51,24 @@
         android:layout_below="@+id/edtRecovery"
         android:layout_alignParentEnd="true"
         android:layout_marginTop="26dp" />
+
+    <TextView
+        android:text="Bem vindo,"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/edtRecovery"
+        android:layout_alignParentStart="true"
+        android:layout_marginBottom="57dp"
+        android:id="@+id/textView2"
+        android:layout_alignParentEnd="true" />
+
+    <TextView
+        android:text="Inform seu e-mail para recuperar sua senha."
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView"
+        android:layout_alignTop="@+id/textView2"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="22dp" />
 
 </RelativeLayout>
