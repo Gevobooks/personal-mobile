@@ -87,10 +87,4 @@ public class RecoveryActivity extends AppCompatActivity implements View.OnClickL
     public void onClick(View v) {
         this.finish();
     }
-
-    /*public void btnVoltar (View view){
-
-        setContentView(R.layout.activity_main);
-    }*/
 }
-
