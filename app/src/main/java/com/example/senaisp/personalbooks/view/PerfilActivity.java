@@ -2,6 +2,7 @@ package com.example.senaisp.personalbooks.view;
 
 import android.content.Context;
 import android.content.Intent;
+import android.content.SharedPreferences;
 import android.os.Bundle;
 import android.support.design.widget.FloatingActionButton;
 import android.support.design.widget.NavigationView;
@@ -14,9 +15,12 @@ import android.support.v7.widget.Toolbar;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
-
+import com.example.senaisp.personalbooks.model.viewModel.Token;
 import com.example.senaisp.personalbooks.R;
 import com.example.senaisp.personalbooks.model.Usuario;
+import com.example.senaisp.personalbooks.model.viewModel.UserFiles;
+import com.example.senaisp.personalbooks.repository.ICallback;
+import com.example.senaisp.personalbooks.repository.UserRepository;
 
 public class PerfilActivity extends AppCompatActivity
         implements NavigationView.OnNavigationItemSelectedListener {
@@ -30,8 +34,33 @@ public class PerfilActivity extends AppCompatActivity
 
        // helper = new PerfilHelper(this);
 
-      //  Intent intent = getIntent();
-       // Usuario usuario = (Usuario) intent.getSerializableExtra("user");
+
+
+            SharedPreferences prefs = getSharedPreferences("preferencias",Context.MODE_PRIVATE);
+            String access_token = prefs.getString("access_token","nao tem");
+
+
+
+        UserRepository.getUserFiles(access_token, new ICallback<UserFiles>() {
+            @Override
+          public void Callback(final UserFiles Files, final Exception error)
+            {
+                runOnUiThread(new Runnable() {
+                    @Override
+                    public void run() {
+                        if (error != null)
+                        {
+                            //tratar o erro
+                        }
+                        else
+                        {
+
+                        }
+
+                    }
+                });
+            }
+        });
 
 
 

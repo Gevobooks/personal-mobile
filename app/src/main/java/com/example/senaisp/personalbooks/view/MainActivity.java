@@ -2,6 +2,7 @@ package com.example.senaisp.personalbooks.view;
 
 import android.content.Context;
 import android.content.Intent;
+import android.content.SharedPreferences;
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
 import android.view.View;
@@ -46,29 +47,38 @@ public class MainActivity extends AppCompatActivity
 
                     String json = gson.toJson(user);
 
-                    UserRepository.EnviarUsuario(json, new ICallback<Token>() {
-                        @Override
-                        public void Callback(final Token back, final Exception error)
-                        {
-                            runOnUiThread(new Runnable() {
-                                @Override
-                                public void run() {
-                                    if (error != null)
-                                    {
-                                        //tratar o erro
-                                    }
-                                    else
-                                    {
-                                        Intent StartSession = new Intent(getContext(), PerfilActivity.class);
-                                        StartSession.putExtra("user", back);
-                                        startActivity(StartSession);
-                                        setContentView(R.layout.activity_perfil);
-                                    }
+                    SharedPreferences prefs = getSharedPreferences("preferencias",Context.MODE_PRIVATE);
+                    final SharedPreferences.Editor ed = prefs.edit();
+                    if(ed != null) {
 
-                                }
-                            });
-                        }
-                    });
+                        UserRepository.EnviarUsuario(json, new ICallback<Token>() {
+                            @Override
+                            public void Callback(final Token back, final Exception error) {
+                                runOnUiThread(new Runnable() {
+                                    @Override
+                                    public void run() {
+                                        if (error != null) {
+                                            Toast.makeText(MainActivity.this, "erro", Toast.LENGTH_SHORT).show();
+                                        } else {
+
+                                            String access = back.getAccess_token().toString();
+                                            ed.putString("access_token", access);
+                                            ed.commit();
+                                            Intent StartSession = new Intent(getContext(), PerfilActivity.class);
+                                            startActivity(StartSession);
+                                            setContentView(R.layout.activity_perfil);
+                                        }
+
+                                    }
+                                });
+                            }
+                        });
+                    }else {
+                        Intent StartSession = new Intent(getContext(), PerfilActivity.class);
+                        startActivity(StartSession);
+                        setContentView(R.layout.activity_perfil);
+
+                    }
 
 
                 }catch (Exception ex){
