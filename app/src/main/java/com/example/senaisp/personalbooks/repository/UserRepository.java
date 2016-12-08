@@ -48,9 +48,6 @@ public class UserRepository
 
                     Token token = gson.fromJson(responseBody, Token.class);
 
-
-
-
                     if (code != 200)
                     {
                         cb.Callback(null, new Exception( ));

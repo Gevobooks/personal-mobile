@@ -14,12 +14,13 @@
         android:layout_width="80dp"
         android:layout_height="match_parent"
         app:srcCompat="@drawable/glasses"
-        />
+        android:id="@+id/imgFilesUser" />
 
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="83dp"
-        android:orientation="vertical">
+        android:orientation="vertical"
+        >
 
         <TextView
             android:text="Nome"
@@ -28,7 +29,8 @@
             android:textAppearance="?android:attr/textAppearanceLarge"
             android:gravity="center"
             android:layout_alignParentStart="true"
-            android:layout_marginBottom="10dp" />
+            android:layout_marginBottom="10dp"
+            android:id="@+id/primaryDesc" />
 
         <TextView
             android:text="Profissão"
@@ -37,7 +39,8 @@
             android:textAppearance="?android:attr/textAppearanceLarge"
             android:gravity="center"
             android:layout_alignParentStart="true"
-            android:layout_marginBottom="10dp" />
+            android:layout_marginBottom="10dp"
+            android:id="@+id/secondaryDesc" />
 
 
     </LinearLayout>

@@ -45,7 +45,7 @@
         android:id="@+id/btnEnviar"
         style="@style/Widget.AppCompat.Button.Borderless"
         android:onClick="btnRecovery"
-        android:background="@mipmap/ic_action_rightarrowblue"
+        android:background="@mipmap/ic_action_loginblue"
         android:elevation="0dp"
         tools:ignore="UnusedAttribute"
         android:layout_below="@+id/edtRecovery"

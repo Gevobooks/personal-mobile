@@ -17,9 +17,7 @@ import com.example.senaisp.personalbooks.repository.UserRepository;
 
 public class RecoveryActivity extends AppCompatActivity implements View.OnClickListener {
 
-
-
-    @Override
+        @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.detalhe_recovery);
@@ -34,9 +32,9 @@ public class RecoveryActivity extends AppCompatActivity implements View.OnClickL
         return new Button.OnClickListener(){
             public void onClick (View v){
 
-                String Email = ((EditText) findViewById(R.id.edtRecovery)).getText().toString();
+                String email = ((EditText) findViewById(R.id.edtRecovery)).getText().toString();
 
-                UserRepository.getForgetPassword(Email, new ICallback<Token>() {
+                UserRepository.getForgetPassword(email, new ICallback<Token>() {
                     @Override
                     public void Callback(final Token back, final Exception error)
                     {
@@ -45,16 +43,14 @@ public class RecoveryActivity extends AppCompatActivity implements View.OnClickL
                             public void run() {
                                 if (error != null)
                                 {
-                                    //tratar o erro
-                                    alerta("O campo e-mail não foi digitado corretamente!");
-                                }
-                                else
-                                {
-
-                                    Intent StartSession = new Intent(getContext(), PerfilActivity.class);
+                                    Intent StartSession = new Intent(getContext(), MainActivity.class);
                                     alerta("E-mail enviado com sucesso!, verifique seu e-mail");
                                     startActivity(StartSession);
                                     setContentView(R.layout.activity_main);
+                                }
+                                else
+                                {
+                                    alerta("O campo e-mail não foi digitado corretamente!");
                                 }
 
                             }
@@ -71,10 +67,12 @@ public class RecoveryActivity extends AppCompatActivity implements View.OnClickL
     }
 
     private Context getContext(){
+
         return this;
     }
 
     public void alerta (String s){
+
         Toast.makeText(this, s, Toast.LENGTH_LONG).show();
     }
 
@@ -85,6 +83,7 @@ public class RecoveryActivity extends AppCompatActivity implements View.OnClickL
 
     @Override
     public void onClick(View v) {
+
         this.finish();
     }
 }

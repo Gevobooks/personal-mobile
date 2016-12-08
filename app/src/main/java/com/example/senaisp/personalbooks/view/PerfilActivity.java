@@ -12,6 +12,7 @@ import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.Toolbar;
 import android.view.Menu;
 import android.view.MenuItem;
+import android.widget.TextView;
 
 import com.example.senaisp.personalbooks.R;
 import com.example.senaisp.personalbooks.model.viewModel.UserFiles;
@@ -30,12 +31,28 @@ public class PerfilActivity extends AppCompatActivity
 
        // helper = new PerfilHelper(this);
 
+        Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
+        setSupportActionBar(toolbar);
+
+        DrawerLayout drawer = (DrawerLayout) findViewById(R.id.drawer_layout);
+        ActionBarDrawerToggle toggle = new ActionBarDrawerToggle(
+                this, drawer, toolbar, R.string.navigation_drawer_open, R.string.navigation_drawer_close);
+        drawer.setDrawerListener(toggle);
+        toggle.syncState();
+
+        NavigationView navigationView = (NavigationView) findViewById(R.id.nav_view);
+        navigationView.setNavigationItemSelectedListener(this);
 
 
-            SharedPreferences prefs = getSharedPreferences("preferencias",Context.MODE_PRIVATE);
-            String access_token = prefs.getString("access_token","nao tem");
+        /*  Tancredo não exclua essas linhas vou iniciar a validação do nav_header_perfil
+
+            String login = ((TextView) findViewById(R.id.textViewUsuariologado)).getText().toString();
+            String email = ((TextView) findViewById(R.id.textViewEmailLogado)).getText().toString();
+        */
 
 
+        SharedPreferences prefs = getSharedPreferences("preferencias",Context.MODE_PRIVATE);
+        String access_token = prefs.getString("access_token","nao tem");
 
         UserRepository.getUserFiles(access_token, new ICallback<UserFiles>() {
             @Override
@@ -60,17 +77,7 @@ public class PerfilActivity extends AppCompatActivity
 
 
 
-        Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
-        setSupportActionBar(toolbar);
 
-        DrawerLayout drawer = (DrawerLayout) findViewById(R.id.drawer_layout);
-        ActionBarDrawerToggle toggle = new ActionBarDrawerToggle(
-                this, drawer, toolbar, R.string.navigation_drawer_open, R.string.navigation_drawer_close);
-        drawer.setDrawerListener(toggle);
-        toggle.syncState();
-
-        NavigationView navigationView = (NavigationView) findViewById(R.id.nav_view);
-        navigationView.setNavigationItemSelectedListener(this);
 
       //  helper.preencheFormulario(usuario);
 
