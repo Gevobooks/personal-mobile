@@ -15,6 +15,10 @@ import android.support.v7.widget.Toolbar;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
+import android.widget.ListAdapter;
+import android.widget.ListView;
+
+import com.example.senaisp.personalbooks.model.adapter.UsuarioAdapter;
 import com.example.senaisp.personalbooks.model.viewModel.Token;
 import com.example.senaisp.personalbooks.R;
 import com.example.senaisp.personalbooks.model.Usuario;
@@ -22,10 +26,14 @@ import com.example.senaisp.personalbooks.model.viewModel.UserFiles;
 import com.example.senaisp.personalbooks.repository.ICallback;
 import com.example.senaisp.personalbooks.repository.UserRepository;
 
+import java.util.List;
+
+import static com.example.senaisp.personalbooks.R.id.content_perfil;
+
 public class PerfilActivity extends AppCompatActivity
         implements NavigationView.OnNavigationItemSelectedListener {
 
-    private PerfilHelper helper;
+    private ListView listaUsuario;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -33,6 +41,9 @@ public class PerfilActivity extends AppCompatActivity
         setContentView(R.layout.activity_perfil);
 
        // helper = new PerfilHelper(this);
+
+        listaUsuario = (ListView) findViewById(R.id.lista_use);
+
 
 
 
@@ -54,6 +65,10 @@ public class PerfilActivity extends AppCompatActivity
                         }
                         else
                         {
+                            //UsuarioAdapter adapter = new UsuarioAdapter(PerfilActivity.this,);
+
+                          //  listaUsuario.setAdapter(adapter);
+
 
                         }
 
@@ -123,11 +138,11 @@ public class PerfilActivity extends AppCompatActivity
 
         } else if (id == R.id.biblioteca_nativa) {
 
-        } else if (id == R.id.sair) {
-            Intent StartSession = new Intent(getContext(), MainActivity.class);
-            startActivity(StartSession);
-            setContentView(R.layout.activity_main);
-            finish();
+//        } else if (id == R.id.sair) {
+//            Intent StartSession = new Intent(getContext(), MainActivity.class);
+//            startActivity(StartSession);
+//            setContentView(R.layout.activity_main);
+//            finish();
         }
 
         DrawerLayout drawer = (DrawerLayout) findViewById(R.id.drawer_layout);

@@ -117,7 +117,7 @@ public class UserRepository
                     int code = response.code();
                     String responseBody = response.body().string();
 
-                    UserFiles[] userFiles = gson.fromJson(responseBody, UserFiles[].class);
+                    UserFiles userFiles = gson.fromJson(responseBody, UserFiles.class);
 
                     if (code != 200)
                     {
