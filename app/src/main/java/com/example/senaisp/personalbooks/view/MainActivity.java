@@ -8,7 +8,6 @@ import android.support.v7.app.AppCompatActivity;
 import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
-import android.widget.TextView;
 import android.widget.Toast;
 import com.example.senaisp.personalbooks.R;
 import com.example.senaisp.personalbooks.model.Usuario;
@@ -58,7 +57,7 @@ public class MainActivity extends AppCompatActivity
                                     @Override
                                     public void run() {
                                         if (error != null) {
-                                            Toast.makeText(MainActivity.this, "erro", Toast.LENGTH_SHORT).show();
+                                            alerta("Erro");
                                         } else {
 
                                             String access = back.getAccess_token().toString();
@@ -109,11 +108,6 @@ public class MainActivity extends AppCompatActivity
 
         makeText(this, s, Toast.LENGTH_LONG).show();
     }
-
-//    @Override
-//    protected void onResume() {
-//        super.onResume();
-
 }
 
 
